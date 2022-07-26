@@ -159,7 +159,7 @@ Poids : 1</pre></td><td class="description after"><pre>On peut activer cette am
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Bouclier (comme un lanceur de sorts de niveau 1) (50 charges, l'objet est détruit quand toutes les charges sont utilisées)
+- Bouclier (instantané) (comme un lanceur de sorts de niveau 1) (50 charges, l'objet est détruit quand toutes les charges sont utilisées)
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">AMUL16<br/>Amulette d'influence sur les méta-sorts</th><td class="description before"><pre>Amulette d'influence sur les méta-sorts : « L'Amplificateur »
@@ -193,31 +193,23 @@ PARAMÈTRES :
 
 Capacités de charge : 
 - Capacité 1 (50 charges, l'objet est détruit quand toutes les charges sont utilisées)
-  Moral : Passe à -1 pendant 1 tour
+  Le moral du porteur reste au plus haut pendant 1 tour
+  Le moral du porteur reste au plus haut
   Immunité au sort Labyrinthe psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
   Immunité au sort Domination pendant 1 tour
   Immunité au sort Coup de fouet à l'ego pendant 1 tour
   Immunité au sort Attaque balistique pendant 1 tour
   Immunité au sort Détonation pendant 1 tour
   Immunité au sort Souffle psionique pendant 1 tour
   Immunité au sort Domination psionique pendant 1 tour
-  Immunité à la peur
-  Immunité à l'horreur pendant 1 tour
+  Immunité à l'horreur
   Immunité à la peur pendant 1 tour
   Immunité à la panique pendant 1 tour
-  Immunité à la paralysie pendant 1 tour
-  Immunité à l'étourdissement pendant 1 tour
   Immunité à la détection de l'alignement pendant 1 tour
   Immunité à l'horreur pendant 1 tour
   Immunité à la débilité mentale pendant 1 tour
-  Immunité à la paralysie pendant 1 tour
   Immunité à la confusion pendant 1 tour
   Immunité à la paralysie pendant 1 tour
-  Immunité au sommeil pendant 1 tour
   Immunité aux charmes pendant 1 tour
   Immunité au sommeil pendant 1 tour
   Immunité à l'étourdissement pendant 1 tour
@@ -236,8 +228,8 @@ Poids : 3</pre></td><td class="description after"><pre>Une amulette d'argent co
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Inflige +2 points de dégâts supplémentaires contre les loups-garous
 - TAC0 : +2 contre les loups-garous
+- Inflige +2 points de dégâts supplémentaires contre les loups-garous
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">AMUL19<br/>Amulette de résistance à la magie +5 %</th><td class="description before"><pre>Les gens commissionnés par le conseil d'Athkatla portent souvent ces amulettes pour traquer les pratiquants de magie interdite. Les amulettes fournissent une mesure de protection contre les mages incivils qui refusent de se laisser emprisonner ou tuer.
@@ -287,7 +279,6 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Vitesse d'incantation : +1
 - Résistance à la magie : +5 %
-- Immunité au silence de manière permanente
 - Immunité au silence
 - Immunité au drain de niveaux
 
@@ -313,7 +304,9 @@ Capacités d'équipement :
 - Immunité aux poisons
 
 Capacités de charge : 
-- Neutralisation du poison de manière permanente (1 fois par jour)
+- Capacité 1 (1 fois par jour)
+  Neutralisation des poisons
+  Dessoûle la cible de manière permanente
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">AMUL23<br/>Fétiche de Protection de la vie</th><td class="description before"><pre>Un saphir en forme de cœur repose au bout d'une fine corde d'argent. Une fois porté, ce fétiche irradie une énergie vitale qui se répand dans son possesseur. On peut lire au dos de la pierre : « La mort finira toujours par nous emporter, mais grâce à cette pierre nous pouvons la repousser ! »
@@ -502,17 +495,9 @@ Capacités de combat (Jeté) :
 Enchantement : +2
 TAC0 : +2
 Dégâts : 1d6 +3
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 2
-
-Capacités de combat (Mêlée) : 
-
-Enchantement : +2
-TAC0 : +2
-Dégâts : 1d6 +3
-Type de dégâts : Tranchant
-Facteur de vitesse : 2
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -540,25 +525,16 @@ Poids : 3</pre></td><td class="description after"><pre>Cette hache de jet n'a p
 
 PARAMÈTRES : 
 
-Capacités de combat (au corps à corps) : 
+Capacités de combat (à distance) : 
+- Revient dans la main du lanceur
+- Inflige 10 points de dégâts d'électricité supplémentaires
+- Crée 25 "Hache de jet + 2" dans l'inventaire de la cible de manière permanente
 
 Enchantement : +2
 TAC0 : +2
 Dégâts : 1d6 +2
 Type de dégâts : Tranchant
 Facteur de vitesse : 2
-
-Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
-- Inflige 10 points de dégâts d'électricité supplémentaires
-- Crée 25 objets (Hache de jet + 2) de manière permanente
-
-Enchantement : +2
-TAC0 : +2
-Dégâts : 1d6 +2
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 2
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -591,11 +567,11 @@ Bala était le prince malfaisant d'un clan de nains des profondeurs, qui fut ass
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Dissipation de la magie (1 fois par jour)
+- Dissipation de la magie (instantané) (1 fois par jour)
 
 Capacités de combat : 
-- Provoque l'échec de 80 % des sorts divins lancés par la cible pendant 100 secondes (jet de sauvegarde à -2 contre les sorts pour éviter)
-- Provoque l'échec de 80 % des sorts profanes lancés par la cible pendant 100 secondes (jet de sauvegarde à -2 contre les sorts pour éviter)
+- Provoque l'échec de 80 % des sorts divins incantés par la cible pendant 100 secondes (jet de sauvegarde à -2 contre les sorts pour éviter)
+- Provoque l'échec de 80 % des sorts profanes incantés par la cible pendant 100 secondes (jet de sauvegarde à -2 contre les sorts pour éviter)
 
 Dégâts : 1d8 
 Type de dégâts : Tranchant
@@ -633,17 +609,9 @@ Capacités de combat (Jeté) :
 Enchantement : +2
 TAC0 : +2
 Dégâts : 1d6 +2
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 2
-
-Capacités de combat (Mêlée) : 
-
-Enchantement : +2
-TAC0 : +2
-Dégâts : 1d6 +2
-Type de dégâts : Tranchant
-Facteur de vitesse : 2
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -677,17 +645,9 @@ Capacités de combat (Jeté) :
 Enchantement : +3
 TAC0 : +3
 Dégâts : 1d6 +3
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
-Capacités de combat (Mêlée) : 
-
-Enchantement : +3
-TAC0 : +3
-Dégâts : 1d6 +3
-Type de dégâts : Tranchant
-Facteur de vitesse : 1
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -720,20 +680,15 @@ Capacités de combat (Jeté) :
 - Inflige 1d6 +4 points de dégâts de projectiles supplémentaires contre les morts-vivants
 - Tue instantanément les morts-vivants (jet de sauvegarde à -4 contre la paralysie, la mort et les poisons pour éviter)
 
-Enchantement : +3
-Dégâts : 1d6 
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 1
-
 Capacités de combat (Mêlée) : 
 - Inflige 1d6 +4 points de dégâts tranchants supplémentaires contre les morts-vivants
 - Tue instantanément les morts-vivants (jet de sauvegarde à -4 contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +3
 Dégâts : 1d6 
-Type de dégâts : Tranchant
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -936,26 +891,20 @@ PARAMÈTRES :
 Capacités de combat (Jeté) : 
 - Revient dans la main du lanceur
 - Inflige 2d6 points de dégâts contondants supplémentaires (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
-- Endors la cible pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Endort la cible pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 - Renverse et sonne la cible pendant 2 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
-
-Enchantement : +4
-TAC0 : +4
-Dégâts : 1d6 +4
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 0
 
 Capacités de combat (Mêlée) : 
 - Inflige 2d6 points de dégâts contondants supplémentaires (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
-- Endors la cible pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Endort la cible pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 - Renverse et sonne la cible pendant 2 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +4
 TAC0 : +4
 Dégâts : 1d6 +4
-Type de dégâts : Tranchant
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 0
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -1003,9 +952,9 @@ Poids : 1</pre></td><td class="description after"><pre>Les deux yeux servant de
 PARAMÈTRES : 
 
 Capacités d'équipement : 
+- Dextérité : +1 (uniquement pour les Archer)
 - Dextérité : +1
 - Chance d'infliger un coup critique : +5 %
-- Dextérité : +1 (uniquement pour les Archer)
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">BDAMUL26<br/>Cœur de la montagne</th><td class="description before"><pre>Pendant un affrontement entre un élémentaire d'eau et un élémentaire de terre puissants, un minuscule fragment de ce dernier se détacha. Une orque qui fuyait les lieux s'en saisit alors qu'elle courait. Elle le donna au chaman de sa tribu, qui réalisa immédiatement sa puissance et en fit une amulette. 
@@ -1041,8 +990,9 @@ Poids : 2</pre></td><td class="description after"><pre>Cet objet fut conçu par
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- MONK : 10
-- TAC0 de la main secondaire : +2
+- TAC0 de la main secondaire : +2 (uniquement pour les Maître-lames)
+- TAC0 de la main secondaire : +2 (uniquement pour les Bretteur)
+- Dégâts tranchants : +10 %
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">BDDART01<br/>Morsure +2</th><td class="description before"><pre>Lorsqu'elle fend les airs, cette fléchette luit comme un trait de lumière. Quand elle touche sa cible, elle libère une gouttelette d'acide, puis retourne à la main qui l'a lancée. Parfois, l'acide parvient à perforer l'armure de la cible.
@@ -1069,7 +1019,7 @@ Capacités d'équipement :
 Capacités de combat : 
 - Revient dans la main du lanceur
 - Inflige 1 points de dégâts d'acide supplémentaires
-- 11 % de chance de modifier la classe d'armure de la cible de -1 pendant 1 tour (jet de sauvegarde contre les souffles pour éviter)
+- 11 % de chance d'infliger à la cible un malus à la classe d'armure de 1 pendant 1 tour (jet de sauvegarde contre les souffles pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -1137,12 +1087,12 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Protection contre les coups critiques
+- Constitution : +1 (uniquement pour les nains)
 - Constitution : +1
 - Résistance aux dégâts tranchants : +3 %
 - Résistance aux dégâts contondants : +3 %
 - Résistance aux dégâts perforants : +3 %
 - Résistance aux dégâts de projectiles : +3 %
-- Constitution : +1 (uniquement pour les nains)
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">BDHELM16<br/>Bandeau des âmes perdues</th><td class="description before"><pre>Il y a des siècles, des aventuriers qui exploraient une tombe pénétrèrent dans sa crypte centrale. Là, ils furent assaillis par des fantômes et des spectres. Ils combattirent bravement, mais succombèrent les uns après les autres. Des années plus tard, la fille d'un des aventuriers engagea une équipe pour s'aventurer dans la tombe et récupérer leurs corps. Elle donna pour consigne de ne toucher qu'aux dépouilles, et les esprits de la tombe les laissèrent faire sans intervenir. Elle conserva le bandeau de son défunt père comme souvenir de sa bravoure.
@@ -1176,7 +1126,7 @@ Poids : 4</pre></td><td class="description after"><pre>Cette lourde robe rouge 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Dégâts de feu : Passe à 10 %
+- Dégâts de feu : +10 %
 - Résistance au feu : +30 %
 
 Poids : 4</pre></td></tr>
@@ -1350,7 +1300,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
-- Change le sexe du porteur
+- Inverse le sexe du porteur
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">BELT06<br/>Ceinturon de force de Géant des collines</th><td class="description before"><pre>Cette ceinture d'aspect ordinaire rend son porteur aussi fort qu'un géant des collines, sans modifier sa taille. Nombreux sont les guerriers arrogants qui ont été surpris par un adversaire bien plus petit doué d'une force surprenante. Le plus souvent, la raison en est un ceinturon de ce type.
@@ -1411,7 +1361,7 @@ Poids : 2</pre></td><td class="description after"><pre>Ce ceinturon augmente co
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Constitution : Passe à 18 pendant 40 tours (1 fois par jour)
+- Constitution : Passe à 18 pendant 8 heures (1 fois par jour)
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">BELT10<br/>Ceinture de Barrière inertielle</th><td class="description before"><pre>Quand on la porte, cette ceinture crée un rideau d'air solidifié autour de son porteur. Ce rideau, ou cette barrière, offre une protection très efficace contre les souffles et la magie. D'après les traces de brûlures sur le cuir usé de la ceinture, il paraît certain qu'elle a servi au moins une fois contre un dragon.
@@ -1670,7 +1620,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
-- Provoque la rage du berserker chez le porteur
+- Provoque la folie du berserker chez le porteur
 
 Enchantement : +3
 TAC0 : +3
@@ -1709,10 +1659,10 @@ Capacités d'équipement :
 - TAC0 : +2 contre les monstres
 
 Capacités de combat : 
-- Inflige 1 points de dégâts d'acide supplémentaires
 - Inflige 2 points de dégâts contondants supplémentaires contre les géants
 - Inflige 2 points de dégâts contondants supplémentaires contre les morts-vivants
 - Inflige 2 points de dégâts contondants supplémentaires contre les monstres
+- Inflige 1 points de dégâts d'acide supplémentaires
 
 Enchantement : +1
 TAC0 : +1
@@ -2089,10 +2039,10 @@ Poids : 9</pre></td><td class="description after"><pre>Cette arme appartenait �
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Endors les gnomes pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
-- Endors les petite-personnes pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
-- Endors les nains pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
-- Endors les humains pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
+- Endort les gnomes pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
+- Endort les petite-personnes pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
+- Endort les nains pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
+- Endort les humains pendant 3 rounds (jet de sauvegarde à +4 contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -2433,7 +2383,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inflige 3 points de dégâts de feu supplémentaires
 - 21 % de chance d'infliger 10 points de dégâts de feu supplémentaires
-- 8 % de chance de lancer le sort Boule de feu (comme un lanceur de sorts de niveau 1)
+- 8 % de chance de lancer instantanément le sort Boule de feu sur la cible (comme un lanceur de sorts de niveau 1)
 
 Enchantement : +3
 TAC0 : +3
@@ -2471,7 +2421,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inflige 5 points de dégâts de feu supplémentaires
 - 31 % de chance d'infliger 15 points de dégâts de feu supplémentaires
-- 6 % de chance de lancer le sort Boule de feu (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Boule de feu sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +5
 TAC0 : +5
@@ -2545,7 +2495,7 @@ Capacités d'équipement :
 
 Capacités de combat : 
 - Inflige 1d6 points de dégâts d'électricité supplémentaires
-- 6 % de chance de lancer le sort Chaîne d'éclairs (comme un lanceur de sorts de niveau 15)
+- 6 % de chance de lancer instantanément le sort Chaîne d'éclairs sur la cible (comme un lanceur de sorts de niveau 15)
 
 Enchantement : +5
 TAC0 : +5
@@ -2584,7 +2534,6 @@ Poids : 8</pre></td><td class="description after"><pre>L'ajout de la cinquième
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Vitesse de déplacement : 0
 - Résistance à la magie : +5 %
 - Immunité au sort Hâte améliorée
 - Immunité au sort Croissance végétale
@@ -2594,7 +2543,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité aux toiles
 - Immunité à la lenteur
@@ -3004,7 +2953,7 @@ Poids : 3</pre></td><td class="description after"><pre>La raison de la fabricat
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Immunité contre les armes de mêlée non-magiques pendant 5 rounds (1 fois par jour)
+- Immunité contre les armes non-magiques pendant 5 rounds (1 fois par jour)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">BOOT12<br/>Bottes de gargouille</th><td class="description before"><pre>On dit que ces chaussons furent créés par un mage qui y emprisonna l'esprit d'une gargouille. Malheureusement, ils ne le protégèrent pas de la vengeance de la famille de la créature.
@@ -3391,7 +3340,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 
 Enchantement : +3
 TAC0 : +3
@@ -3518,7 +3467,7 @@ Capacités d'équipement :
 - Résistance à l'électricité : +20 %
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 1d8 points de dégâts d'électricité supplémentaires
 
 Capacités de combat (à distance) : 
@@ -4079,7 +4028,8 @@ PARAMÈTRES :
 Capacités de charge : 
 - Capacité 1 (1 fois par jour)
   Soigne +10 points de vie à la cible de manière permanente
-  Neutralisation du poison de manière permanente
+  Neutralisation des poisons
+  Dessoûle la cible de manière permanente
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">BRAC21<br/>Gantelets de spécialisation extrême</th><td class="description before"><pre>Ces gantelets rarissimes sont activement recherchés par les guerriers, les duellistes et les soldats de toute sorte.
@@ -4099,7 +4049,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - TAC0 : +1
 - Dégâts : +2
-- Attaque par round : + une demi
+- Attaque par round : une demi supplémentaire
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">BRAC22<br/>Bracelets de paladin</th><td class="description before"><pre>Les serviteurs de la justice sont toujours prompts à dénicher de nouveaux outils pour leur lutte contre le mal. D'ailleurs, ces gantelets ne peuvent être portés que par des guerriers au cœur pur.
@@ -4236,7 +4186,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4266,10 +4216,10 @@ Capacités d'équipement :
 - Résistance à la magie : +50 %
 
 Capacités de combat (au corps à corps) : 
-- Dissipation de la magie assurée
-- Guérison de la surdité
-- Guérison de la Débilité mentale
 - Inflige 5 points de dégâts tranchants supplémentaires contre les créatures chaotiques mauvaises
+- Dissipation de la magie assurée sur la cible
+- Guérit la surdité de la cible
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +5
 TAC0 : +5
@@ -4278,9 +4228,9 @@ Type de dégâts : Tranchant
 Facteur de vitesse : 5
 
 Capacités de combat : 
-- Dissipation de la magie assurée
-- Guérison de la surdité
-- Guérison de la Débilité mentale
+- Dissipation de la magie assurée sur la cible
+- Guérit la surdité de la cible
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +5
 Type de dégâts : Perforant
@@ -4318,7 +4268,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 
 Capacités de combat : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 
 Enchantement : +3
 TAC0 : +3
@@ -4475,7 +4425,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Résistance à la magie : Passe à 50 %
-- Moral : Passe à -1
+- Le moral du porteur reste au plus haut
 - Immunité au sort Labyrinthe psionique
 - Immunité au sort Domination
 - Immunité au sort Coup de fouet à l'ego
@@ -4483,8 +4433,8 @@ Capacités d'équipement :
 - Immunité au sort Détonation
 - Immunité au sort Souffle psionique
 - Immunité au sort Domination psionique
-- Immunité à la peur
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité à la détection de l'alignement
 - Immunité à la débilité mentale
@@ -4496,31 +4446,23 @@ Capacités d'équipement :
 
 Capacités de charge : 
 - Capacité 1 (50 charges, l'objet est détruit quand toutes les charges sont utilisées)
-  Moral : Passe à -1 pendant 1 tour
+  Le moral du porteur reste au plus haut pendant 1 tour
+  Le moral du porteur reste au plus haut
   Immunité au sort Labyrinthe psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
-  Immunité au sort Souffle psionique pendant 1 tour
   Immunité au sort Domination pendant 1 tour
   Immunité au sort Coup de fouet à l'ego pendant 1 tour
   Immunité au sort Attaque balistique pendant 1 tour
   Immunité au sort Détonation pendant 1 tour
   Immunité au sort Souffle psionique pendant 1 tour
   Immunité au sort Domination psionique pendant 1 tour
-  Immunité à la peur
-  Immunité à l'horreur pendant 1 tour
+  Immunité à l'horreur
   Immunité à la peur pendant 1 tour
   Immunité à la panique pendant 1 tour
-  Immunité à la paralysie pendant 1 tour
-  Immunité à l'étourdissement pendant 1 tour
   Immunité à la détection de l'alignement pendant 1 tour
   Immunité à l'horreur pendant 1 tour
   Immunité à la débilité mentale pendant 1 tour
-  Immunité à la paralysie pendant 1 tour
   Immunité à la confusion pendant 1 tour
   Immunité à la paralysie pendant 1 tour
-  Immunité au sommeil pendant 1 tour
   Immunité aux charmes pendant 1 tour
   Immunité au sommeil pendant 1 tour
   Immunité à l'étourdissement pendant 1 tour
@@ -4586,7 +4528,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4609,7 +4551,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4633,7 +4575,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes contondantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4656,7 +4598,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 7
 
@@ -4677,7 +4619,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4700,7 +4642,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4726,7 +4668,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +20 %
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
@@ -4750,7 +4692,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4773,7 +4715,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4921,7 +4863,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes contondantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4949,7 +4891,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 1
 - Jets de sauvegarde : +1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -4985,7 +4927,7 @@ Capacités d'équipement :
 - Crochetage de serrures : -5 %
 - Détection/désamorçage des pièges : -5 %
 - Furtivité : -10 %
-- Immunité contre les armes de mêlée non-magiques
+- Immunité contre les armes non-magiques
 
 Poids : 15
 
@@ -5017,7 +4959,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes contondantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au froid : +50 %
 
 Capacités de charge : 
@@ -5042,7 +4984,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -5105,7 +5047,6 @@ Capacités d'équipement :
 - Jets de sauvegarde : +2 contre la paralysie, la mort et les poisons
 - Jets de sauvegarde : +2 contre les baguettes, les sceptres et les bâtons
 - Jets de sauvegarde : +2 contre les souffles
-- Flou permanent
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK04<br/>L'erreur de Relair</th><td class="description before"><pre>Cape du loup : « Erreur de Relair »
@@ -5123,8 +5064,10 @@ Une grande dose d'ironie entoure la création de cette cape magique. Relair éta
 PARAMÈTRES : 
 
 Capacités de combat : 
+- Supprime le sort Métamorphose forme naturelle du livre de sorts du porteur de manière permanente
+- Supprime le sort Souffle de feu du livre de sorts du porteur de manière permanente
 - Métamorphose forme naturelle de manière permanente
-- Crée une arme magique (Attaquer) pendant 2 tours
+- Crée 0 armes magiques (Attaquer) pendant 2 tours
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK05<br/>Cape de Baldurien</th><td class="description before"><pre>D'après la rumeur, cette cape était portée par Baldurien, le fondateur de la Porte de Baldur. Bien qu'elle n'ait jamais servi au combat, elle assure la protection que méritent tous les grands commandants de ce monde. 
@@ -5160,7 +5103,7 @@ Destinée, selon la légende, à l'une des plus grandes familles de cambrioleurs
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Non-détection permanente
+- Non-détection
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK07<br/>Cape de nymphe</th><td class="description before"><pre>La fabuleuse Cape de la Nymphe est réputée pour accroître le Charisme de tout individu, fût-ce le nain le plus grincheux. Une noble cormyrienne, qui espérait rendre plus agréable son mariage de raison, a semble-t-il cassé sa tirelire afin d'en obtenir deux, une pour elle et une autre pour son mari.
@@ -5185,9 +5128,9 @@ Capacités d'équipement :
 
 Capacités de charge : 
 - Capacité 1 (1 fois par jour)
-  Charme extrême pendant 60 tours (jet de sauvegarde contre les souffles pour éviter)
-  91 % de chance d'être inefficace contre les elfes
-  31 % de chance d'être inefficace contre les demi-elfes
+  Charme extrême pendant 12 heures (jet de sauvegarde contre les souffles pour éviter)
+  91 % de chance d'être effectif contre les elfes
+  31 % de chance d'être effectif contre les demi-elfes
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK08<br/>Cape d'Algernon</th><td class="description before"><pre>La cape d'Algernon est enchantée de telle sorte que l'individu qui la revêt paraît briller d'une sorte d'éclat intérieur.
@@ -5440,7 +5383,7 @@ Poids : 3</pre></td><td class="description after"><pre>Thalanta le Juste créa 
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Crée 6 objets (Cape de réflexion) pendant 1 seconde (1 fois par jour)
+- Crée 6 "Fléchette +5" dans l'inventaire du porteur pendant 1 seconde (1 fois par jour)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK26<br/>Cape de renvoi</th><td class="description before"><pre>Même si son apparence est dans l'ensemble normale, cette cape miroitante a été souvent décrite comme semblant faite « d'eau tissée ». Ses pouvoirs se révèlent quand son porteur est la cible d'attaques magiques et que tous les effets néfastes glissent sur lui comme sur de l'eau.
@@ -5470,7 +5413,7 @@ Capacités d'équipement :
 - Immunité au sort Sainte Punition
 - Immunité au sort Glyphe de garde
 - Immunité au sort Appel de la foudre
-- Immunité aux sorts de dégâts offensifs
+- Immunité aux sorts de dégâts offensif
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">CLCK27<br/>Cape des égouts</th><td class="description before"><pre>Pour un habitant des égouts comme Ivan, survivre signifiait aller là où les autres ne veulent pas aller. Pour échapper à des crapules, Ivan descendit si profondément dans les égouts sous la Porte de Baldur qu'il finit par trouver des cavernes naturelles, dont certaines s'ouvraient sur l'océan. Dans une de ces cavernes, Ivan découvrit ce qu'il pensait être un manteau fichu, tout taché et déchiré. Il le jeta dans son feu le soir, mais le manteau refusait de brûler. Intrigué, il l'enfila et après quelques essais découvrit ces capacités cachées. Avec la bonne formule, il pouvait se transformer en rat, en troll, ou en gelée moutarde.
@@ -5524,9 +5467,9 @@ Poids : 3</pre></td><td class="description after"><pre>Cette cape est maléfiqu
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 
 Poids : 3</pre></td></tr>
@@ -5826,17 +5769,9 @@ Capacités de combat (Jeté) :
 Enchantement : +2
 TAC0 : +2
 Dégâts : 2d4 +2
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Perforant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
-Capacités de combat (Mêlée) : 
-
-Enchantement : +2
-TAC0 : +2
-Dégâts : 2d4 +2
-Type de dégâts : Perforant
-Facteur de vitesse : 1
-
 Type de compétence : Dague
 Type : Arme à 1 main
 
@@ -5872,21 +5807,15 @@ Capacités de combat (Jeté) :
 - Revient dans la main du lanceur
 - Inflige 1d2 points de dégâts de feu supplémentaires
 
-Enchantement : +3
-TAC0 : +3
-Dégâts : 2d4 +3
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 1
-
 Capacités de combat (Mêlée) : 
 - Inflige 1d2 points de dégâts de feu supplémentaires
 
 Enchantement : +3
 TAC0 : +3
 Dégâts : 2d4 +3
-Type de dégâts : Perforant
+Type de dégâts : Perforant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
 Type de compétence : Dague
 Type : Arme à 1 main
 
@@ -5913,9 +5842,9 @@ Poids : 1</pre></td><td class="description after"><pre>La lame et la poignée d
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Endors la cible pendant 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
-- 91 % de chance d'être inefficace contre les elfes pendant 1 seconde
-- 31 % de chance d'être inefficace contre les demi-elfes pendant 1 seconde
+- Endort la cible pendant 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- 91 % de chance d'être effectif contre les elfes pendant 1 seconde
+- 31 % de chance d'être effectif contre les demi-elfes pendant 1 seconde
 
 Enchantement : +3
 TAC0 : +3
@@ -6035,7 +5964,7 @@ Poids : 1</pre></td><td class="description after"><pre>Cette dague pèse lourd 
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 16 % de chance de drainer un niveau à la cible de manière permanente
+- 16 % de chance de drainer 1 niveau à la cible de manière permanente
 
 Enchantement : +4
 TAC0 : +4
@@ -6253,7 +6182,7 @@ Capacités de charge :
 - Capacité 1 (1 charge, l'objet est détruit quand la charge est utilisée)
   Inefficace contre les cibles immunisées au poison
   Inefficace contre les morts-vivants et les golems
-  Empoisonne la cible et lui inflige 1 points de dégâts par seconde pendant 20 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+  Empoisonne la cible et lui inflige 1 point de dégâts par seconde pendant 20 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Dégâts : 1d3 
 Type de dégâts : Projectile (perforant)
@@ -6286,7 +6215,7 @@ Capacités de charge :
 - Capacité 1 (1 charge, l'objet est détruit quand la charge est utilisée)
   Inefficace contre les cibles immunisées au poison
   Inefficace contre les morts-vivants et les golems
-  Empoisonne la cible et lui inflige 1 point de dégât toutes les 3 secondes pendant 2 tours (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+  Empoisonne la cible et lui inflige 1 point de dégâts toutes les 3 secondes pendant 2 tours (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +1
 TAC0 : +1
@@ -6524,7 +6453,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -6849,12 +6778,12 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +20
 - Chances de toucher : +30
-- Attaque par round : Passe à  une demi
+- Attaque par round : Passe à une demi
 - Résistance à la magie : +100 %
-- Hâte améliorée permanente
+- Hâte améliorée
 
 Capacités de combat : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 1d8 points de dégâts de feu supplémentaires
 
 Enchantement : +4
@@ -7439,12 +7368,6 @@ Capacités de combat (Jeté) :
 - Inflige 8 points de dégâts contondants supplémentaires contre les géants
 - Inflige 8 points de dégâts contondants supplémentaires contre les ogres
 
-Enchantement : +3
-TAC0 : +3
-Dégâts : 2d4 +3
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 1
-
 Capacités de combat (Mêlée) : 
 - Inflige 8 points de dégâts de projectiles supplémentaires contre les géants
 - Inflige 8 points de dégâts de projectiles supplémentaires contre les ogres
@@ -7452,9 +7375,9 @@ Capacités de combat (Mêlée) :
 Enchantement : +3
 TAC0 : +3
 Dégâts : 2d4 +3
-Type de dégâts : Contondant
+Type de dégâts : Contondant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
 Type de compétence : Marteau de guerre
 Type : Arme à 1 main
 
@@ -7635,9 +7558,9 @@ Poids : 2</pre></td><td class="description after"><pre>La Rune de Clangeddin a 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité au drain de niveaux
 
@@ -7769,7 +7692,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Protection contre les coups critiques
-- Infravision permanente
+- Infravision
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">HELM06<br/>Heaume de protection contre les charmes</th><td class="description before"><pre>Comme son nom l'indique, le heaume de protection contre les charmes protège celui qui le porte de toute tentative de manipulation magique de ses émotions. Souvent, des groupes de mercenaires de haut vol équipent leurs membres de tels heaumes afin de les protéger de toute ingérence extérieure.
@@ -7916,10 +7839,10 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Protection contre les coups critiques
-- Moral : Passe à -1
+- Le moral du porteur reste au plus haut
 - Immunité à la peur
-- Immunité à l'horreur
 - Immunité à la panique
+- Immunité à l'horreur
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">HELM16<br/>Heaume de Brillance</th><td class="description before"><pre>Ce heaume est fait d'acier poli incrusté de diamants, de rubis, et d'opales de feu. Les gemmes brillent d'une lumière dont la source ne peut être que magique. Le heaume rend son porteur résistant au feu et lui permet d'utiliser certains sortilèges, dont la boule de feu, la vaporisation prismatique, et le rayon de soleil.
@@ -8331,7 +8254,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 point de dégât toutes les 3 secondes pendant 1 tour (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Empoisonne la cible et lui inflige 1 point de dégâts toutes les 3 secondes pendant 1 tour (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -8420,10 +8343,10 @@ Cet anneau fut donné à Edventar, le chasseur et écumeur de récifs, par un gr
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Attaque par round : Passe à  une demi
+- Attaque par round : Passe à une demi
 - Points de vie maximum : +100
 - Résistance à la magie : Passe à 100 %
-- Hâte améliorée permanente
+- Hâte améliorée
 - Immunité au sort Hâte améliorée
 - Immunité au sort Hâte
 - Immunité au sort Croissance végétale
@@ -8469,14 +8392,14 @@ Capacités d'équipement :
 - Classe d'armure : +10
 - Attaque par round : Passe à 3
 - Résistance à la magie : +100 %
-- Moral : Passe à -1
-- Hâte améliorée permanente
+- Le moral du porteur reste au plus haut
+- Hâte améliorée
 - Immunité au sort Labyrinthe
 - Immunité au sort Lenteur du Golem
 - Immunité au sort Lent
 - Immunité au sort Toile de vortex
-- Immunité à la peur
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité à la débilité mentale
 - Immunité au drain de niveaux
@@ -8553,7 +8476,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 7
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 15
 
@@ -8575,7 +8498,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 6
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 5
 
@@ -8597,7 +8520,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 6
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 15
 
@@ -8623,7 +8546,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 8
 
@@ -8645,7 +8568,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 8
 
@@ -8670,7 +8593,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Camouflage dans l'ombre : +15 %
 
 Poids : 8
@@ -8693,7 +8616,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 4
 
@@ -8714,7 +8637,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 6
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 5
 
@@ -8735,7 +8658,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 4
 
@@ -8760,7 +8683,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 4
 - Jets de sauvegarde : +3 contre la paralysie, la mort et les poisons
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 4
 
@@ -8784,7 +8707,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Camouflage dans l'ombre : +20 %
 
 Poids : 5
@@ -8807,7 +8730,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 8
 
@@ -8833,7 +8756,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Charisme : -1
 - Résistance aux dégâts de projectiles : +10 %
 
@@ -8857,7 +8780,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 7
 
@@ -8883,7 +8806,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 2
 - Jets de sauvegarde : -2 contre la paralysie, la mort et les poisons
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 6
 
@@ -8908,7 +8831,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à l'acide : +50 %
 
 Poids : 10
@@ -8936,7 +8859,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +15 %
 - Résistance au froid : +15 %
 - Résistance à l'acide : +15 %
@@ -8967,7 +8890,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 3
 - Jets de sauvegarde : +4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Furtivité : +20 %
 - Résistance à la magie : +20 %
 
@@ -9015,7 +8938,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 5
 
@@ -9040,7 +8963,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Vitesse de déplacement : +100 %
 
 Poids : 5
@@ -9107,7 +9030,7 @@ Capacités d'équipement :
 - Jets de sauvegarde : +5 contre les sorts
 - Résistance à l'électricité : Passe à 100 %
 - Immunité au sort Projectile magique
-- Non-détection permanente
+- Non-détection
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">MISC72<br/>La Griffe de Kazgaroth</th><td class="description before"><pre>On sait peu de choses sur cet objet, si ce n'est que la griffe elle-même a été prélevée sur le cadavre de Kazgaroth, la bête géante. Cet objet est doté de plusieurs enchantements qui s'activent dès que la griffe est portée en anneau. L'image du porteur se trouble alors et il devient plus difficile de l'atteindre à l'aide d'armes ou de sorts. Cet objet présente toutefois un inconvénient : il se nourrit apparemment du sang de son porteur. Aussi, le porteur de la griffe se sent-il souvent faible, ce qui le rend plus vulnérable aux effets des poisons.
@@ -9138,7 +9061,6 @@ Capacités d'équipement :
 - Jets de sauvegarde : +3 contre les souffles
 - Jets de sauvegarde : +3 contre les sorts
 - Constitution : -2
-- Flou permanent
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">MISC75<br/>Dague de venin +2</th><td class="description before"><pre>La dague de venin est une arme puissante qu'apprécient les assassins de tous les Royaumes. Celle-ci a été créée pour les Voleurs de l'Ombre amniens. Chaque fois qu'elle blesse un adversaire, elle injecte du poison dans son sang... un poison rapide et efficace.
@@ -9162,7 +9084,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 points de dégâts par seconde pendant 15 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Empoisonne la cible et lui inflige 1 point de dégâts par seconde pendant 15 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -9250,7 +9172,7 @@ Poids : 5</pre></td><td class="description after"><pre>L'arme maudite se prése
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Crée un objet (Chevalière d'Isaéa) de manière permanente
+- Crée 1 "Armure de plates" à l'emplacement de l'armure du porteur de manière permanente
 
 Poids : 50
 
@@ -9299,9 +9221,9 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Régénère 1 point de vie toutes les 5 secondes
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité aux charmes
 
@@ -9456,7 +9378,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +25 %
 - Résistance à l'acide : +25 %
 - Résistance aux dégâts magiques : +25 %
@@ -9541,8 +9463,7 @@ Capacités d'équipement :
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : 0
 - Jets de sauvegarde : +1
-- Provoque l'échec systématique des sorts profanes
-- Vitesse de déplacement : 0
+- Empêche le porteur de lancer des sorts profanes
 - Immunité au sort Croissance végétale
 - Immunité au sort Enchevêtrement
 - Immunité au sort Lenteur du Golem
@@ -9550,7 +9471,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité à la lenteur
 - Immunité aux toiles
@@ -9592,13 +9513,12 @@ Capacités d'équipement :
 
 Capacités de charge : 
 - Capacité 1 (3 fois par jour)
-  Protection contre les projectiles non-magiques pendant 5 tours
-  Immunité contre les flèchettes pendant 5 tours
-  Immunité contre les dagues de jet pendant 5 tours
-  Immunité contre les billes pendant 5 tours
-  Immunité contre les attaques de regard pendant 5 tours
-  Immunité contre les haches de jet pendant 5 tours
-  Immunité contre les flèches pendant 5 tours
+  Immunité contre les flèchettes pendant 1 heure
+  Immunité contre les dagues de jet pendant 1 heure
+  Immunité contre les billes pendant 1 heure
+  Immunité contre les attaques de regard pendant 1 heure
+  Immunité contre les haches de jet pendant 1 heure
+  Immunité contre les flèches pendant 1 heure
 
 Poids : 7
 
@@ -9777,7 +9697,7 @@ Capacités d'équipement :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 point de dégât toutes les 2 secondes pendant 2 rounds
+- Empoisonne la cible et lui inflige 1 point de dégâts toutes les 2 secondes pendant 2 rounds
 
 Enchantement : +2
 TAC0 : +2
@@ -9815,7 +9735,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 points de dégâts par seconde pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Empoisonne la cible et lui inflige 1 point de dégâts par seconde pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -10066,7 +9986,7 @@ Poids : 0</pre></td><td class="description after"><pre>Victimes du siège inter
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Boule de feu (comme un lanceur de sorts de niveau 10) (1 fois par jour)
+- Boule de feu (instantané) (comme un lanceur de sorts de niveau 10) (1 fois par jour)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">OHBREW02<br/>[Défectueux] Fléau des Abysses +4</th><td class="description before"><pre>Peu de mages oseraient fabriquer une arme ciblant spécifiquement les démons et diables, plus rares encore sont ceux qui oseraient l'essayer. Halrass Étoile du jour de Sembie est un de ces mages, et ses efforts furent décisifs dans le renvoi d'un diable dévoyé qui menaçait de réduire à néant un village entier. Bien qu'il eût réussi à vaincre le diable, il fut la cible d'une vengeance quelques années plus tard. Depuis lors, il travaille sans relâche dans les Neuf Enfers.
@@ -10243,8 +10163,8 @@ Poids : 7</pre></td><td class="description after"><pre>Autrefois grand généra
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Inflige 1d6 points de dégâts magiques supplémentaires
 - Inflige 5 points de dégâts tranchants supplémentaires contre les créatures chaotiques
+- Draine 1d6 points de dégâts magiques à la cible
 - 16 % de chance de tuer instantanément la cible
 
 Enchantement : +5
@@ -10283,13 +10203,13 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +10
 - Résistance à la magie : +100 %
-- Moral : Passe à -1
+- Le moral du porteur reste au plus haut
 - Immunité au sort Labyrinthe
 - Immunité au sort Lenteur du Golem
 - Immunité au sort Lent
 - Immunité au sort Toile de vortex
-- Immunité à la peur
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité à la débilité mentale
 - Immunité au drain de niveaux
@@ -10341,7 +10261,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes contondantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -10374,7 +10294,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Charisme : -2
 - Vitesse de déplacement : +3
 - Résistance à la magie : +15 %
@@ -10495,10 +10415,10 @@ Capacités d'équipement :
 - Protection contre les coups critiques
 - TAC0 : +1
 - Jets de sauvegarde : +1
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
 - Immunité à la confusion
+- Immunité à la peur
 - Immunité à la débilité mentale
 - Immunité à la panique
 - Immunité aux charmes
@@ -10537,7 +10457,7 @@ Capacités d'équipement :
 - Résistance au feu : +50 %
 
 Capacités de charge : 
-- Boule de feu (comme un lanceur de sorts de niveau 10) après 2 secondes (1 fois par jour)
+- Boule de feu (instantané) (comme un lanceur de sorts de niveau 10) après 2 secondes (1 fois par jour)
 
 Capacités de combat : 
 - Inflige 10 points de dégâts de feu supplémentaires (jet de sauvegarde  pour éviter)
@@ -10902,7 +10822,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Vol à la tire : -10 %
 - Crochetage de serrures : -10 %
 - Détection/désamorçage des pièges : -10 %
@@ -10936,7 +10856,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Vol à la tire : -10 %
 - Crochetage de serrures : -10 %
 - Détection/désamorçage des pièges : -10 %
@@ -10970,7 +10890,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Vol à la tire : -10 %
 - Crochetage de serrures : -10 %
 - Détection/désamorçage des pièges : -10 %
@@ -10997,7 +10917,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : 4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 6
 
@@ -11066,26 +10986,20 @@ PARAMÈTRES :
 Capacités de combat (Jeté) : 
 - Revient dans la main du lanceur
 - Inflige 1d12 points de dégâts magiques supplémentaires (jet de sauvegarde contre les sorts pour éviter)
-- Provoque l'échec systématique des sorts divins lancés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
-- Provoque l'échec systématique des sorts profanes lancés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
-
-Enchantement : +2
-TAC0 : +2
-Dégâts : 1d4 +3
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 2
+- Provoque l'échec des sorts divins incantés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
+- Provoque l'échec des sorts profanes incantés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
 
 Capacités de combat (Mêlée) : 
 - Inflige 1d12 points de dégâts magiques supplémentaires (jet de sauvegarde contre les sorts pour éviter)
-- Provoque l'échec systématique des sorts divins lancés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
-- Provoque l'échec systématique des sorts profanes lancés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
+- Provoque l'échec des sorts divins incantés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
+- Provoque l'échec des sorts profanes incantés par la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
 
 Enchantement : +2
 TAC0 : +2
 Dégâts : 1d4 +3
-Type de dégâts : Contondant
+Type de dégâts : Contondant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 2
-
 Type de compétence : Marteau de guerre
 Type : Arme à 1 main
 
@@ -11179,7 +11093,7 @@ Capacités d'équipement :
 - Résistance aux dégâts magiques : +25 %
 
 Capacités de charge : 
-- Les sorts lancés par la cible déclenchent automatiquement un hiatus entropique pendant 7 secondes (jet de sauvegarde contre les sorts pour éviter) (1 fois par jour)
+- Les sorts lancés par la cible déclenchent un hiatus entropique pendant 7 secondes (jet de sauvegarde contre les sorts pour éviter) (1 fois par jour)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">OHNSHLD1<br/>Bouclier de Fyrus Khal +2</th><td class="description before"><pre>Bouclier de Fyrus Khal
@@ -11247,7 +11161,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat : 
-- Tous sorts lancés par la cible déclenchent automatiquement un hiatus entropique pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
+- Les sorts lancés par la cible déclenchent un hiatus entropique pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
 
 Enchantement : +1
 TAC0 : +1
@@ -11276,7 +11190,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -11296,7 +11210,7 @@ Poids : 0</pre></td><td class="description after"><pre>Sur cette broche finemen
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Renvoi le sort Projectile magique
+- Renvoie le sort Projectile magique
 - Renvoie les projectiles magiques
 
 Poids : 0</pre></td></tr>
@@ -11428,7 +11342,7 @@ Capacités d'équipement :
 - Immunité aux toiles
 
 Capacités de charge : 
-- Porte d'ombre (3 fois par jour)
+- Porte d'ombre (instantané) (3 fois par jour)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">OHRBRAC1<br/>Gantelets d'Aln Zekk</th><td class="description before"><pre>Aln Zekk, comme il s'est surnommé, s'est élevé au statut de tyran et de maître dans les rangs des moines dévoués à Ilmater, le Dieu Brisé. Les autres moines de son ordre ne partageaient pas sa vision de la souffrance et la manière dont elle rapproche les fidèles de leur dieu. Ils finirent par se soulever pour le renverser. Il s'est enfui, abandonnant ses gantelets. Personne n'a vu ou entendu parler de Zekk depuis.
@@ -11444,8 +11358,8 @@ Poids : 2</pre></td><td class="description after"><pre>Aln Zekk, comme il s'est
 PARAMÈTRES : 
 
 Capacités d'équipement : 
+- À chaque attaque de mêlée réussie: 15 % de chance d'infliger 1d10 points de dégâts de froid au porteur
 - Dégâts des poings : +3
-- À chaque attaque de mêlée réussie: 15 % de chance d'infliger 1d10 points de dégâts de froid supplémentaires
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">OHRCLCK1<br/>Cagoule des étoiles</th><td class="description before"><pre>Bien que les partisans de la philosophie de la Conscience Solaire évitent autant que possible la violence, cette cagoule a été conçue pour l'éviter lorsque cela devient impossible. Lorsque le mot-clef est prononcé, de nombreuses petites sphères enflammées apparaissent dans les mains du porteur, et peuvent être lancées vers une cible qu'elles toucheront à coup sûr.
@@ -11460,7 +11374,7 @@ Poids : 3</pre></td><td class="description after"><pre>Bien que les partisans d
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Minuscules météores de Melf (1 fois par jour)
+- Minuscules météores de Melf (instantané) (1 fois par jour)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">OHRCLCK2<br/>Cape des coups infaillibles</th><td class="description before"><pre>« Une bonne défense, c'est deux fois plus d'attaques ! », comme le disait souvent le légendaire Herold Mance. Cette cape lui appartenait et, même s'il est mort il y a fort longtemps, ses capacités semblent avoir imprégné le tissu. Ou alors, il est possible que cette cape ait été fabriquée pour lui et que ce soit grâce à elle s'il pouvait manier deux épées à la fois. Les historiens ne le sauront jamais.
@@ -11496,12 +11410,12 @@ PARAMÈTRES :
 
 Capacités de charge : 
 - Capacité 1 (50 charges, l'objet est détruit quand toutes les charges sont utilisées)
-  Constitution : -1 pendant 40 tours
-  30 % de chance de lancer le sort Armure de la Foi (comme un lanceur de sorts de niveau 15)
-  26 % de chance de lancer le sort Cantique (comme un lanceur de sorts de niveau 15)
-  21 % de chance de lancer le sort Ordres chaotiques (comme un lanceur de sorts de niveau 15)
-  16 % de chance de lancer le sort Protection contre la mort (comme un lanceur de sorts de niveau 15)
-  8 % de chance de lancer le sort Bouclier des Archontes (comme un lanceur de sorts de niveau 15)
+  Constitution : -1 pendant 8 heures
+  30 % de chance de lancer instantanément le sort Armure de la Foi sur le porteur (comme un lanceur de sorts de niveau 15)
+  26 % de chance de lancer instantanément le sort Cantique sur le porteur (comme un lanceur de sorts de niveau 15)
+  21 % de chance de lancer instantanément le sort Ordres chaotiques sur le porteur (comme un lanceur de sorts de niveau 15)
+  16 % de chance de lancer instantanément le sort Protection contre la mort sur le porteur (comme un lanceur de sorts de niveau 15)
+  8 % de chance de lancer instantanément le sort Bouclier des Archontes sur le porteur (comme un lanceur de sorts de niveau 15)
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">OHRCLCK4<br/>Cape de la Lune Noire</th><td class="description before"><pre>Les adeptes de Shar se reposent souvent sur la puissance sombre de leur déesse pour créer des objets magiques. Cette Cape de la Lune Noire semble avoir été créée de cette façon.
@@ -11563,9 +11477,9 @@ Capacités d'équipement :
 
 Capacités de combat : 
 - Inflige 5 points de dégâts magiques supplémentaires contre les créatures bonnes
-- 51 % de chance de dissiper la magie assurément
-- 51 % de chance de guérir la surdité la cible
-- 51 % de chance de guérir la Débilité mentale
+- 51 % de chance de dissiper la magie assurément sur la cible
+- 51 % de chance de guérir la surdité de la cible
+- 51 % de chance de guérir la Débilité mentale de la cible
 
 Enchantement : +5
 TAC0 : +5
@@ -11601,9 +11515,9 @@ Capacités d'équipement :
 - Classe d'armure : +1
 
 Capacités de charge : 
-- Domination (comme un lanceur de sorts de niveau 1) (3 fois par jour)
-- Paralysie (comme un lanceur de sorts de niveau 1) (3 fois par jour)
-- Peur (comme un lanceur de sorts de niveau 1) (3 fois par jour)
+- Domination (instantané) (comme un lanceur de sorts de niveau 1) (3 fois par jour)
+- Paralysie (instantané) (comme un lanceur de sorts de niveau 1) (3 fois par jour)
+- Peur (instantané) (comme un lanceur de sorts de niveau 1) (3 fois par jour)
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">OHRHELM1<br/>Bandeau du Dévoué</th><td class="description before"><pre>Même si le Bandeau du Dévoué a toujours été associé aux adorateurs de Shar, sa création reste emplie de mystère. Il a fait une apparition aussi soudaine que violente dans les annales de l'histoire, il est le signe distinctif d'un membre du clergé sharran qui a « purifié » un temple d'Eauprofonde dédié à Séluné. Il est réapparu plusieurs siècles plus tard à Purksul alors que des moines usurpateurs de la Lune Noire terrorisaient des nobles locaux. La vraie origine de l'artefact reste encore inconnue à ce jour.
@@ -11624,7 +11538,7 @@ Poids : 1</pre></td><td class="description after"><pre>Même si le Bandeau du D
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Bénédiction permanente
+- Bénédiction
 - Immunité à la confusion
 
 Capacités de charge : 
@@ -11673,7 +11587,7 @@ Capacités d'équipement :
 - Camouflage dans l'ombre : +10 %
 
 Capacités de charge : 
-- Image miroir pendant 108 secondes (3 fois par jour)
+- Image miroir pendant 8 rounds (3 fois par jour)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">OHRSLNG1<br/>Fronde lupine +2</th><td class="description before"><pre>Cette fronde enchantée semble avoir été conçue à partir de la peau encore ensanglantée d'un animal sauvage. La puanteur est à couper le souffle, mais les mouches qui tournent autour sont bien pires. La fronde offre une précision infaillible, cependant, et elle envoie une partie de sa saleté à chaque tir.
@@ -11698,10 +11612,10 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat : 
-- 16 % de chance d'être inefficace contre les cibles immunisées au poison
-- 16 % de chance d'être inefficace contre les morts-vivants et les golems
-- 16 % de chance d'inoculer une maladie qui inflige 1 point de dégâts toutes les 6 secondes à la cible pendant 1 tour
-- 16 % de chance d'inoculer une maladie qui ralenti la cible pendant 1 tour
+- 16 % de chance d'être inefficace contre les cibles sensibles au poison
+- 16 % de chance d'être effectif contre les morts-vivants et les golems
+- 16 % de chance d'inoculer une maladie qui inflige 1 point de dégâts de poison toutes les 6 secondes à la cible pendant 1 tour
+- 16 % de chance d'inoculer une maladie qui ralentit la cible pendant 1 tour
 
 Enchantement : +2
 TAC0 : +2
@@ -11994,7 +11908,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12017,7 +11931,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12042,7 +11956,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12066,7 +11980,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12088,7 +12002,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12114,7 +12028,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 1
 - Jets de sauvegarde : +2 contre les sorts
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12137,7 +12051,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12163,7 +12077,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +6 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +15 %
 - Résistance à l'acide : +15 %
 - Empêche l'utilisation des compétences de voleur
@@ -12189,7 +12103,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12213,7 +12127,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12237,7 +12151,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12265,7 +12179,7 @@ Capacités d'équipement :
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Constitution : -2
 - Charisme : -5
 - Vitesse de déplacement : -1
@@ -12295,7 +12209,7 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +50 %
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
@@ -12320,7 +12234,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12348,7 +12262,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à l'électricité : +90 %
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
@@ -12378,7 +12292,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +5 %
 - Immunité aux attaques sournoises
 - Empêche l'utilisation des compétences de voleur
@@ -12412,7 +12326,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Dextérité : +1
 - Résistance au feu : +20 %
 - Empêche l'utilisation des compétences de voleur
@@ -12438,7 +12352,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -12479,8 +12393,8 @@ Capacités de charge :
 - Capacité 1 (1 fois par jour)
   d'être effectif contre les créatures invisibles
   Charme les humanoïdes pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
-  91 % de chance d'être inefficace contre les elfes
-  31 % de chance d'être inefficace contre les demi-elfes
+  91 % de chance d'être effectif contre les elfes
+  31 % de chance d'être effectif contre les demi-elfes
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">RING01<br/>Anneau</th><td class="description before"><pre>Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rarement, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.
@@ -12528,9 +12442,9 @@ PARAMÈTRES :
 Capacités de charge : 
 - Capacité 1 (100 charges, l'objet est détruit quand toutes les charges sont utilisées)
   d'être effectif contre les créatures invisibles
-  Charme les animaux pendant 10 tours (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
-  91 % de chance d'être inefficace contre les elfes
-  31 % de chance d'être inefficace contre les demi-elfes
+  Charme les animaux pendant 2 heures (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
+  91 % de chance d'être effectif contre les elfes
+  31 % de chance d'être effectif contre les demi-elfes
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING04<br/>La Folie du Bouffon</th><td class="description before"><pre>Anneau de maladresse : « La Folie du Bouffon »
@@ -12573,7 +12487,7 @@ Entre les mains d'un maître voleur pendant une génération, cet anneau fut emp
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Invisibilité permanente pendant 60 tours (1 fois par jour)
+- Invisibilité pendant 12 heures (1 fois par jour)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING06<br/>Anneau de protection + 1</th><td class="description before"><pre>Anneau de protection +1 : « Anneau des Princes »
@@ -12649,7 +12563,6 @@ Cet anneau fut donné à Edventar, le chasseur et écumeur de récifs, par un gr
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Vitesse de déplacement : 0
 - Immunité au sort Hâte améliorée
 - Immunité au sort Croissance végétale
 - Immunité au sort Enchevêtrement
@@ -12658,7 +12571,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité aux toiles
 - Immunité à la lenteur
@@ -12791,7 +12704,7 @@ On offre souvent ces objets aux marchands qui prennent le risque de commercer av
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Infravision permanente
+- Infravision
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING22<br/>Anneau de Sunie</th><td class="description before"><pre>Anneau de sainteté : « Anneau honorifique de Sunie »
@@ -12832,7 +12745,7 @@ Capacités d'équipement :
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
 - Intelligence : Passe à 3
 - Sagesse : Passe à 3
-- Débilité mentale permanente
+- Débilité mentale
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING25<br/>Anneau de protection de Koveras</th><td class="description before"><pre>Anneau de protection +1 : « Anneau des Princes »
@@ -12868,7 +12781,7 @@ Poids : 0</pre></td><td class="description after"><pre>Objet de fables, cet ann
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Invoque une créature (Djinn) pendant 40 tours (1 fois par jour)
+- Invoque une créature (Djinn) pendant 8 heures (1 fois par jour)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING27<br/>Anneau de Contrôle du Feu</th><td class="description before"><pre>Cet anneau rouge poli est couvert de fines gravures représentant des flammes et des nappes de lave. Les mages et autres voyageurs entre les plans utilisent ces anneaux pour se protéger dans le plan élémentaire du feu, et pour commander aux élémentaires de feu.
@@ -12983,8 +12896,8 @@ Capacités d'équipement :
 Capacités de charge : 
 - Capacité 1 (1 fois par jour)
   Charme extrême pendant 100 secondes (jet de sauvegarde à +3 contre les sorts pour éviter)
-  91 % de chance d'être inefficace contre les elfes
-  31 % de chance d'être inefficace contre les demi-elfes
+  91 % de chance d'être effectif contre les elfes
+  31 % de chance d'être effectif contre les demi-elfes
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">RING31<br/>Anneau de régénération</th><td class="description before"><pre>On raconte que Huhhus, un Magicien Rouge d'un rang mineur, avait découvert une méthode parfaite pour distiller de la chair de troll en une potion qui pouvait conférer la capacité régénératrice de ces derniers. Mais rares étaient ceux qui avaient l'estomac de boire le répugnant liquide, et une dizaine d'années plus tard, un élève de Huhhus fabriqua cet anneau en se basant sur les travaux de son maître. Cet anneau de jade creux contient des fragments de cerveau et de l'ichor de troll, et permet à son porteur de se régénérer.
@@ -13099,7 +13012,7 @@ Capacités d'équipement :
 - Jets de sauvegarde : +2
 - Régénère 1 point de vie toutes les 3 secondes
 - Résistance à la magie : +10 %
-- MONK : 100
+- Résistance aux poisons : +100 %
 - Immunité à la maladie
 - Immunité aux poisons
 
@@ -13272,8 +13185,8 @@ Poids : 3</pre></td><td class="description after"><pre>Ce sceptre long et fin p
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Tue instantanément les golems (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 - Inflige 7 points de dégâts contondants supplémentaires contre les golems
+- Tue instantanément les golems (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +3
 TAC0 : +3
@@ -13376,7 +13289,6 @@ Capacités de charge :
 
 Capacités de combat : 
 - Paralyse les créatures pendant 5 rounds (jet de sauvegarde à +5 contre les sorts pour éviter)
-- Paralyse les créatures pendant 5 rounds (jet de sauvegarde à +5 contre les sorts pour éviter)
 
 Enchantement : +1
 TAC0 : +1
@@ -13406,7 +13318,7 @@ Entre les mains d'un maître voleur pendant une génération, cet anneau fut emp
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Invisibilité permanente pendant 60000 tours (100 fois par jour)
+- Invisibilité pendant 500 jours (100 fois par jour)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">ROSSRING<br/>Anneau d'action libre</th><td class="description before"><pre>Anneau d'action libre : « Cadeau d'Edventar »
@@ -13525,7 +13437,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -10
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +5 %
 - Immunité aux attaques sournoises
 - Empêche l'utilisation des compétences de voleur
@@ -13556,8 +13468,8 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inefficace contre les morts-vivants et les golems
-- 76 % de chance d'être inefficace contre les cibles immunisées au poison
-- 76 % de chance d'empoisonner la cible et de lui infliger 1 points de dégâts par seconde pendant 10 secondes (jet de sauvegarde à -2 contre les souffles pour éviter)
+- 76 % de chance d'être inefficace contre les cibles sensibles au poison
+- 76 % de chance d'empoisonner la cible et de lui infliger 1 point de dégâts par seconde pendant 10 secondes (jet de sauvegarde à -2 contre les souffles pour éviter)
 - 25 % de chance de passer la force de la cible à 3 pendant 10 secondes (jet de sauvegarde à -2 contre les souffles pour éviter)
 - 25 % de chance d'infliger lenteur à la cible pendant 5 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
 
@@ -13591,12 +13503,12 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : -4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au feu : +50 %
 - Résistance aux poisons : +100 %
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 - Immunité à la confusion
 - Immunité à la mort magique
@@ -14505,7 +14417,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 
 Enchantement : +1
 TAC0 : +2
@@ -14542,7 +14454,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de charge : 
-- Crée 5 objets (Fronde Chercheuse +1) de manière permanente (1 fois par jour)
+- Crée 5 "Bille +4" dans l'inventaire du porteur de manière permanente (1 fois par jour)
 
 Enchantement : +4
 TAC0 : +4
@@ -14579,7 +14491,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de charge : 
-- Crée 5 objets (Fronde d'Erinne +4) de manière permanente (1 fois par jour)
+- Crée 5 "Bille +4" dans l'inventaire du porteur de manière permanente (1 fois par jour)
 
 Enchantement : +5
 TAC0 : +5
@@ -14925,7 +14837,6 @@ Poids : 5</pre></td><td class="description after"><pre>Une fois que la hampe et
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Vitesse de déplacement : 0
 - Immunité au sort Hâte améliorée
 - Immunité au sort Croissance végétale
 - Immunité au sort Enchevêtrement
@@ -14934,7 +14845,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité aux toiles
 - Immunité à la lenteur
@@ -14945,7 +14856,7 @@ Capacités de combat :
 - Inflige 1d6 +5 points de dégâts perforants supplémentaires après 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 - Inflige 1d6 +5 points de dégâts perforants supplémentaires après 1 round (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 - Inflige 1d6 +5 points de dégâts perforants supplémentaires (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
-- Endors la cible pendant 3 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Endort la cible pendant 3 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +6
 TAC0 : +6
@@ -15212,18 +15123,16 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les créatures mauvaises
 - Jets de sauvegarde : +2 contre les créatures mauvaises
 - Jets de sauvegarde : +2
-- Invisibilité permanente
+- Invisibilité
 - Immunité aux charmes
-- Immunité contre les attaques des démons convoqués
+- Immunité contre les démons convoqués
 
 Capacités de charge : 
 - Boule de feu - Éclair (3 fois par jour)
 - Piège à sorts (1 fois par jour)
 
 Capacités de combat : 
-- Dissipation de la magie
-- Guérison de la surdité
-- Guérison de la Débilité mentale
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +5
 TAC0 : +1
@@ -15701,8 +15610,8 @@ Poids : 3</pre></td><td class="description after"><pre>Orné de décorations op
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 51 % de chance d'être inefficace contre les cibles immunisées au poison
-- 51 % de chance d'être inefficace contre les morts-vivants et les golems
+- 51 % de chance d'être inefficace contre les cibles sensibles au poison
+- 51 % de chance d'être effectif contre les morts-vivants et les golems
 - 51 % de chance d'empoisonner la cible et de lui infliger 2 points de dégâts par seconde pendant 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +2
@@ -16144,7 +16053,7 @@ Capacités d'équipement :
 
 Capacités de combat : 
 - Inflige 7 points de dégâts tranchants supplémentaires
-- Provoque la rage du berserker chez le porteur pendant 1 tour
+- Provoque la folie du berserker chez le porteur pendant 1 tour
 
 Enchantement : +1
 TAC0 : +1
@@ -16235,17 +16144,17 @@ Capacités d'équipement :
 - Enchantement : +3 contre les loups des glaces
 - Enchantement : +2 contre les loups-garous
 - Enchantement : +2 contre les trolls
-- TAC0 de la cible : +1 contre les trolls
+- TAC0 : +1 contre les trolls
 - TAC0 : +3 contre les morts-vivants
 - TAC0 : +2 contre les loups des glaces
 - TAC0 : +1 contre les loups-garous
 
 Capacités de combat : 
-- Inflige 1 points de dégâts de feu supplémentaires
 - Inflige 1 points de dégâts tranchants supplémentaires contre les loups-garous
 - Inflige 2 points de dégâts tranchants supplémentaires contre les loups des glaces
 - Inflige 3 points de dégâts tranchants supplémentaires contre les morts-vivants
 - Inflige 1 points de dégâts tranchants supplémentaires contre les trolls
+- Inflige 1 points de dégâts de feu supplémentaires
 
 Enchantement : +1
 TAC0 : +1
@@ -16534,9 +16443,9 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Régénère 1 point de vie toutes les 60 secondes
-- Moral : Passe à -1
-- Immunité à la peur
+- Le moral du porteur reste au plus haut
 - Immunité à l'horreur
+- Immunité à la peur
 - Immunité à la panique
 
 Capacités de charge : 
@@ -16757,7 +16666,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Résistance au feu : +50 %
-- Non-détection permanente
+- Non-détection
 
 Enchantement : +1
 TAC0 : +1
@@ -16792,7 +16701,7 @@ PARAMÈTRES :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 point de dégât toutes les 3 secondes pendant 5 rounds
+- Empoisonne la cible et lui inflige 1 point de dégâts toutes les 3 secondes pendant 5 rounds
 
 Enchantement : +2
 TAC0 : +2
@@ -17060,7 +16969,6 @@ Poids : 3</pre></td><td class="description after"><pre>Sous l'apparence d'un ci
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Immunité au silence de manière permanente
 - Immunité au silence
 
 Capacités de combat : 
@@ -17218,8 +17126,6 @@ Poids : 3</pre></td><td class="description after"><pre>L'âge de cette arme est
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Immunité à la confusion
-- Immunité aux charmes
 - TAC0 : +3 contre les créatures loyales bonnes
 - TAC0 : +3 contre les créatures loyales mauvaises
 - TAC0 : +3 contre les créatures chaotiques bonnes
@@ -17228,6 +17134,8 @@ Capacités d'équipement :
 - TAC0 : +2 contre les créatures neutres bonnes
 - TAC0 : +1 contre les créatures loyales neutres
 - TAC0 : +1 contre les créatures chaotiques neutres
+- Immunité à la confusion
+- Immunité aux charmes
 
 Capacités de combat : 
 - Inflige 2 points de dégâts tranchants supplémentaires contre les créatures chaotiques neutres
@@ -17297,9 +17205,8 @@ Poids : 2</pre></td><td class="description after"><pre>Cette lame est très pri
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 16 % de chance de modifier la classe d'armure de la cible de -2 pendant 4 rounds
-- 16 % de chance de multiplier la vitesse de déplacement de la cible par 0 % pendant 4 rounds
-- 16 % de chance d'enchevêtrer la cible pendant 4 rounds
+- 16 % de chance d'infliger à la cible un malus à la classe d'armure de 2 pendant 4 rounds
+- 16 % de chance d'immobiliser la cible pendant 4 rounds
 
 Enchantement : +4
 TAC0 : +4
@@ -17334,10 +17241,9 @@ Poids : 2 </pre></td><td class="description after"><pre>Combinée au Cœur du d
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 16 % de chance de modifier la classe d'armure de la cible de -2 pendant 4 rounds
-- 16 % de chance de multiplier la vitesse de déplacement de la cible par 0 % pendant 4 rounds
-- 16 % de chance d'enchevêtrer la cible pendant 4 rounds
-- 15 % de chance de drainer un niveau à la cible de manière permanente
+- 16 % de chance d'infliger à la cible un malus à la classe d'armure de 2 pendant 4 rounds
+- 16 % de chance d'immobiliser la cible pendant 4 rounds
+- 15 % de chance de drainer 1 niveau à la cible de manière permanente
 
 Enchantement : +5
 TAC0 : +5
@@ -17728,9 +17634,7 @@ Poids : 3</pre></td><td class="description after"><pre>La lame de cette arme se
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Capacité 2 (1 fois par jour)
-  Invoque une créature (Lame spectrale) pendant 4 rounds
-  Marque spectrale +4 après 4 rounds
+- Invoque une créature (Lame spectrale) pendant 4 rounds (1 fois par jour)
 
 Capacités de combat : 
 - Inflige 1d4 points de dégâts de froid supplémentaires
@@ -17813,9 +17717,7 @@ Poids : 3</pre></td><td class="description after"><pre>La lame de cette arme se
 PARAMÈTRES : 
 
 Capacités de charge : 
-- Capacité 2 (1 fois par jour)
-  Invoque une créature (Lame spectrale) pendant 4 rounds
-  Marque spectrale +5 après 4 rounds
+- Invoque une créature (Lame spectrale) pendant 4 rounds (1 fois par jour)
 - TAC0 : +5 pendant 1 round (1 fois par jour)
 
 Capacités de combat (au corps à corps) : 
@@ -18172,7 +18074,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
-- Provoque la rage du berserker chez le porteur
+- Provoque la folie du berserker chez le porteur
 
 Enchantement : +3
 TAC0 : +3
@@ -18205,7 +18107,6 @@ Poids : 10</pre></td><td class="description after"><pre>À l'origine, le Fléau
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Vitesse de déplacement : 0
 - Immunité au sort Croissance végétale
 - Immunité au sort Enchevêtrement
 - Immunité au sort Lenteur du Golem
@@ -18213,7 +18114,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité aux toiles
 - Immunité à la lenteur
@@ -18253,7 +18154,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Pétrifie les ogres de manière permanente (jet de sauvegarde contre les sorts pour éviter)
-- 6 % de chance de lancer le sort Boule de feu (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Boule de feu sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +3
 TAC0 : +3
@@ -18363,10 +18264,8 @@ Capacités de charge :
 - Dissipation de la magie (3 fois par jour)
 
 Capacités de combat : 
-- Dissipation de la magie
-- Guérison de la surdité
-- Guérison de la Débilité mentale
 - Inflige 5 points de dégâts tranchants supplémentaires contre les créatures chaotiques mauvaises
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +5
 TAC0 : +5
@@ -18463,7 +18362,6 @@ Poids : 10</pre></td><td class="description after"><pre>À l'origine, le Fléau
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Vitesse de déplacement : 0
 - Immunité au sort Croissance végétale
 - Immunité au sort Enchevêtrement
 - Immunité au sort Lenteur du Golem
@@ -18471,7 +18369,7 @@ Capacités d'équipement :
 - Immunité au sort Toile de vortex
 - Immunité au sort Hâte
 - Immunité à la paralysie
-- Immunité à l'étourdissement de manière permanente
+- Immunité à l'étourdissement
 - Immunité aux effets affectant la mobilité
 - Immunité aux toiles
 - Immunité à la lenteur
@@ -18588,7 +18486,7 @@ Poids : 10</pre></td><td class="description after"><pre>Épée du chaos de Sare
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Inflige 1 points de dégâts tranchants supplémentaires
+- Draine 1 points de dégâts tranchants à la cible
 
 Enchantement : +2
 TAC0 : +2
@@ -18622,8 +18520,8 @@ Poids : 9</pre></td><td class="description after"><pre>L'une des armes magiques
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 11 % de chance d'être inefficace contre les cibles immunisées au poison
-- 11 % de chance d'être inefficace contre les morts-vivants et les golems
+- 11 % de chance d'être inefficace contre les cibles sensibles au poison
+- 11 % de chance d'être effectif contre les morts-vivants et les golems
 - 11 % de chance d'infliger 2d12 points de dégâts de poison supplémentaires
 
 Enchantement : +5
@@ -18666,8 +18564,8 @@ Capacités d'équipement :
 
 Capacités de combat : 
 - Inefficace contre les morts-vivants et les golems
-- Draine un niveau à la cible (jet de sauvegarde à -5 contre la paralysie, la mort et les poisons pour éviter)
-- 11 % de chance d'être inefficace contre les cibles immunisées au poison
+- Draine 1 niveau à la cible de manière permanente et persiste après la mort (jet de sauvegarde à -5 contre la paralysie, la mort et les poisons pour éviter)
+- 11 % de chance d'être inefficace contre les cibles sensibles au poison
 - 11 % de chance d'infliger 2d12 points de dégâts de poison supplémentaires
 
 Enchantement : +5
@@ -18717,10 +18615,8 @@ Capacités de charge :
 - Dissipation de la magie (comme un lanceur de sorts de niveau 15) (3 fois par jour)
 
 Capacités de combat : 
-- Dissipation de la magie
-- Guérison de la surdité
-- Guérison de la Débilité mentale
 - Inflige 6 points de dégâts tranchants supplémentaires contre les créatures chaotiques mauvaises
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +6
 TAC0 : +6
@@ -18850,7 +18746,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +25 %
 - Résistance au feu : +50 %
 - Empêche l'utilisation des compétences de voleur
@@ -18902,7 +18798,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 7
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 10
 
@@ -18973,7 +18869,7 @@ Capacités d'équipement :
 - Jets de sauvegarde : +2 contre les créatures mauvaises
 - Points de vie maximum : +5
 - Charisme : +2
-- Immunité contre les attaques des démons convoqués
+- Immunité contre les démons convoqués
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">WA2DAK<br/>Lame zerth de Dak'kon +2</th><td class="description before"><pre>L'arme de prédilection du fameux githzerai Dak'kon. Il fut tué par une entité inconnue alors qu'il travaillait pour une créature appelée « L'Anonyme ». 
@@ -19074,7 +18970,7 @@ Capacités d'équipement :
 - Classe d'armure : +1
 
 Capacités de charge : 
-- Simulacre (comme un lanceur de sorts de niveau 10) (1 fois par jour)
+- Simulacre (instantané) (comme un lanceur de sorts de niveau 10) (1 fois par jour)
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">WA2PLAT<br/>Armure de Baldurien</th><td class="description before"><pre>Cette armure appartenait au célèbre Baldurien. Elle fait partie des objets dérobés au musée de la ville de la Porte de Baldur.
@@ -19098,7 +18994,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Points de vie maximum : +4
 - Charisme : +1
 - Empêche l'utilisation des compétences de voleur
@@ -19337,7 +19233,7 @@ Capacités d'équipement :
 Capacités de combat : 
 - Inefficace contre les cibles immunisées au poison
 - Inefficace contre les morts-vivants et les golems
-- Empoisonne la cible et lui inflige 1 points de dégâts par seconde pendant 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Empoisonne la cible et lui inflige 1 point de dégâts par seconde pendant 2 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +3
 TAC0 : +3
@@ -19372,7 +19268,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inflige 1 points de dégâts de froid supplémentaires
-- 26 % de chance d'infliger Confusion à la cible pendant 3 rounds (jet de sauvegarde contre les sorts pour éviter)
+- 26 % de chance d'infliger confusion à la cible pendant 3 rounds (jet de sauvegarde contre les sorts pour éviter)
 
 Enchantement : +3
 TAC0 : +3
@@ -19408,7 +19304,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 
 Enchantement : +5
 TAC0 : +5
@@ -19512,7 +19408,7 @@ Poids : 9</pre></td><td class="description after"><pre>Cette morgenstern était
 PARAMÈTRES : 
 
 Capacités de combat : 
-- 51 % de chance de faire oublier 1 sort à la cible
+- 51 % de chance de supprimer 1 sort profane de la mémoire de la cible
 
 Enchantement : +2
 TAC0 : +2
@@ -19892,7 +19788,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 2 points de dégâts de feu supplémentaires
 
 Capacités de combat (à distance) : 
@@ -19933,7 +19829,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 1
 
 Capacités de combat (à distance) : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 2 points de dégâts de feu supplémentaires
 
 Capacités de combat (à distance) : 

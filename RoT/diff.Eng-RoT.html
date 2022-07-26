@@ -156,17 +156,9 @@ Capacités de combat (Jeté) :
 Enchantement : +4
 TAC0 : +4
 Dégâts : 2d4 +4
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Contondant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 5
-
-Capacités de combat (Mêlée) : 
-
-Enchantement : +4
-TAC0 : +4
-Dégâts : 2d4 +4
-Type de dégâts : Contondant
-Facteur de vitesse : 5
-
 Type de compétence : Marteau de guerre
 Type : Arme à 1 main
 
@@ -254,7 +246,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Dextérité : +2
-- Invisibilité permanente
+- Invisibilité
 
 Capacités de combat (Mêlée) : 
 
@@ -410,12 +402,12 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +1 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
-- Renvoi les sorts de niveau 5
-- Renvoi les sorts de niveau 4
-- Renvoi les sorts de niveau 3
-- Renvoi les sorts de niveau 2
-- Renvoi les sorts de niveau 1
+- Empêche le porteur de lancer des sorts profanes
+- Renvoie les sorts de niveau 5
+- Renvoie les sorts de niveau 4
+- Renvoie les sorts de niveau 3
+- Renvoie les sorts de niveau 2
+- Renvoie les sorts de niveau 1
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -423,6 +415,36 @@ Poids : 50
 
 Nécessite : 
 - Force : 12</pre></td></tr>
+<tr><th class="title">BLADEFE1<br/>Blade of Fear</th><td class="description before"><pre>This sword is the personal weapon of "Fear". It inflicts fear on enemies, but nothing more is known of it.
+
+STATISTICS:
+
+Combat Abilities:
+ Inflicts fear on enemies
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength</pre></td><td class="description after"><pre>This sword is the personal weapon of "Fear". It inflicts fear on enemies, but nothing more is known of it.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Le moral de la cible (de niveau 6 à 1) est affaibli de 0 (jet de sauvegarde contre les sorts pour éviter)
+
+Dégâts : 1d10 
+Type de dégâts : Tranchant
+Facteur de vitesse : 9
+Type de compétence : Épée à deux mains
+Type : Arme à 2 mains
+
+Poids : 10
+
+Nécessite : 
+- Force : 14</pre></td></tr>
 <tr><th class="title">BLADEHA1<br/>Blade of Hate</th><td class="description before"><pre>This sword is the personal weapon of "Hate". It inflicts crushing damage on enemies, but nothing more is known of it.
 
 STATISTICS:
@@ -501,7 +523,7 @@ Requires: 14 Strength</pre></td><td class="description after"><pre>This sword is
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Inocule une maladie qui inflige 1 point de dégâts par seconde à la cible pendant 20 secondes
+- Inocule une maladie qui inflige 1 point de dégâts de poison par seconde à la cible pendant 20 secondes
 
 Dégâts : 1d10 
 Type de dégâts : Tranchant
@@ -532,7 +554,7 @@ Requires: 14 Strength</pre></td><td class="description after"><pre>This blade is
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Tous sorts lancés par la cible déclenchent automatiquement un hiatus entropique pendant 5 rounds (jet de sauvegarde contre les sorts pour éviter)
+- Les sorts lancés par la cible déclenchent un hiatus entropique pendant 5 rounds (jet de sauvegarde contre les sorts pour éviter)
 
 Enchantement : +4
 TAC0 : +4
@@ -672,7 +694,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 
 Capacités de combat : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 1d6 points de dégâts perforants supplémentaires
 
 Enchantement : +5
@@ -711,7 +733,7 @@ Capacités d'équipement :
 - Résistance à la magie : +20 %
 
 Capacités de combat : 
-- 21 % de chance d'inoculer une maladie qui inflige 1 point de dégâts par seconde à la cible pendant 10 secondes
+- 21 % de chance d'inoculer une maladie qui inflige 1 point de dégâts de poison par seconde à la cible pendant 10 secondes
 
 Enchantement : +4
 TAC0 : +4
@@ -778,7 +800,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inflige 4 points de dégâts de froid supplémentaires
-- 11 % de chance de lancer le sort Cône de froid (comme un lanceur de sorts de niveau 10)
+- 11 % de chance de lancer instantanément le sort Cône de froid sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +3
 TAC0 : +2
@@ -932,7 +954,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
-- Rage du berserker
+- Provoque la folie du berserker chez le porteur
 
 Enchantement : +3
 TAC0 : +3
@@ -962,8 +984,8 @@ Requires: 11 Strength</pre></td><td class="description after"><pre>This morning 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Inflige 3 points de dégâts contondants supplémentaires (uniquement pour les géants)
 - TAC0 : +3 contre les géants (uniquement pour les géants)
+- Inflige 3 points de dégâts contondants au porteur (uniquement pour les géants)
 
 Enchantement : +3
 TAC0 : +3
@@ -1008,7 +1030,7 @@ Equipped Ability : Increases movement rate</pre></td><td class="description afte
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente
+- Hâte
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">DRIZZTDE<br/>Scimitar +5, Twinkle</th><td class="description before"><pre>This is the magical scimitar +6, Twinkle. It is one of the personal weapons of Drizzt Do'Urden.  Due to its magical nature, only those pure of heart can use it.
@@ -1161,10 +1183,10 @@ Type:   1-handed</pre></td><td class="description after"><pre>This is the dagger
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente
+- Hâte
 
 Capacités de combat : 
-- Empoisonne la cible et lui inflige 2 points de dégâts par seconde pendant 10 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- Empoisonne la cible (de niveau 6 à 1) et lui inflige 2 points de dégâts par seconde pendant 10 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +6
 TAC0 : +6
@@ -1274,7 +1296,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au froid : Passe à 75 %
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
@@ -1329,7 +1351,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance au froid : +50 %
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
@@ -1428,7 +1450,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +50 %
 - Résistance aux dégâts magiques : +50 %
 - Empêche l'utilisation des compétences de voleur
@@ -1493,7 +1515,7 @@ Requires: 9 Strength</pre></td><td class="description after"><pre>The Hammer of 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Immunité contre les armes de mêlée non-magiques
+- Immunité contre les armes non-magiques
 
 Enchantement : +4
 TAC0 : +4
@@ -1520,7 +1542,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -1544,7 +1566,7 @@ Requires: 14 Strength</pre></td><td class="description after"><pre>This sword wa
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Lance Résurrection
+- Lance instantanément Résurrection sur la cible
 
 Enchantement : +4
 TAC0 : +5
@@ -1599,14 +1621,14 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -4
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +50 %
 - Résistance au feu : +50 %
 - Résistance au froid : +50 %
 - Résistance à l'électricité : +50 %
 - Résistance aux poisons : +50 %
 - Résistance à l'acide : +50 %
-- Immunité contre les attaques des morts-vivants
+- Immunité contre les morts-vivants
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -1648,7 +1670,7 @@ Capacités d'équipement :
 - Intelligence : +1
 - Sagesse : +1
 - Charisme : +1
-- Invisibilité permanente
+- Invisibilité
 
 Capacités de charge : 
 - Colonne de feu (4 fois par jour)
@@ -1733,7 +1755,7 @@ Requires: 5 Strength</pre></td><td class="description after"><pre>This is one of
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente
+- Hâte
 
 Enchantement : +4
 TAC0 : +4
@@ -2063,9 +2085,9 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Classe d'armure : +2
-- Infravision permanente
+- Infravision
 - Immunité à la pétrification
-- Immunité contre les armes de mêlée non-magiques
+- Immunité contre les armes non-magiques
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">MAGSSWRD<br/>Magical Blade of Nomal</th><td class="description before"><pre>The Blade of Nomal was forged about two centuries ago to kill a demon who had managed to escape onto the surface. It had cold bloodedly slayed everybody in a small town near the city of Arlax. When the word about the demon came to the city, a mage named Nomal created this magical sword to slay the demon with a one single strike. A brave warrior was sent on the task to kill the demon. He succeeded but died on the wounds he had got in the battle. When a group of mages came from Arlax to see what had happened, they found the warrior's and the demon's bodies, but the blade had disappeared.
@@ -2155,7 +2177,7 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les armes contondantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Immunité au drain de niveaux
 - Immunité aux attaques sournoises
 
@@ -2278,21 +2300,15 @@ Capacités de combat (Jeté) :
 - Revient dans la main du lanceur
 - Inflige 2d6 points de dégâts de froid supplémentaires
 
-Enchantement : +3
-TAC0 : +3
-Dégâts : 1d6 +3
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 2
-
 Capacités de combat (Mêlée) : 
 - Inflige 2d6 points de dégâts de froid supplémentaires
 
 Enchantement : +3
 TAC0 : +3
 Dégâts : 1d6 +3
-Type de dégâts : Tranchant
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 2
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -2361,7 +2377,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Classe d'armure : +2
-- Invisibilité permanente
+- Invisibilité
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">NEWBE03<br/>Girdle of Enchantment</th><td class="description before"><pre>The name can be misleading in this case as this girdle protects from all the enchantment magics. While one wears this girdle, there is no fear that any enchantment can be cast on her.
@@ -2418,6 +2434,18 @@ Capacités d'équipement :
 - Immunité à la confusion
 
 Poids : 2</pre></td></tr>
+<tr><th class="title">NEWBR01<br/>Bracers of Yuan-Ti</th><td class="description before"><pre>These bracers are one of the most rare sort: they protect from an entire race. In this case that race is the Yuan-Ti. The bracers have been made for wizards only. Originally these were used just for fun. As one is immune to all Yuan-Ti attacks while wearing them, wizards used to just walk among  prisoner Yuan-Tis and slaughter them, slowly.
+
+STATISTICS:
+
+Special:  Protection from Yuan-Ti's</pre></td><td class="description after"><pre>These bracers are one of the most rare sort: they protect from an entire race. In this case that race is the Yuan-Ti. The bracers have been made for wizards only. Originally these were used just for fun. As one is immune to all Yuan-Ti attacks while wearing them, wizards used to just walk among  prisoner Yuan-Tis and slaughter them, slowly.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Immunité contre les épées longues
+
+Poids : 1</pre></td></tr>
 <tr><th class="title">NEWBRLI<br/>Gauntlets of Life</th><td class="description before"><pre>The story of these gauntlets is a very sad one. Once there was a man, a good man, searching for a path to eternal life. It became his obsession and strove him to commit horrible acts. He killed hundreds of people and stored their 'life energy' inside of these gauntlets. It was supposed to be that when the wearer of these gauntlets died, she got more life from the trapped lives inside the gauntlets. That was proven wrong when the man died. Instead of giving life to the wearer, the gauntlets can be used to give life to someone else. There is a sense of evil in them and it takes a lot's of guts to wear them. It is said that if the wearer uses all the trapped lifes, she will become trapped herself.
 
 STATISTICS:
@@ -2465,9 +2493,6 @@ STATISTICS:
 Equipped Abilities: Sanctuary</pre></td><td class="description after"><pre>These boots are known for giving the wearer a permanent sanctuary. It can be dispelled though. Nonetheless they can be very useful to rangers, paladins and clerics.
 
 PARAMÈTRES : 
-
-Capacités d'équipement : 
-- Sanctuaire
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">NEWCB01<br/>Hunter +3</th><td class="description before"><pre>This bow was originally created for one purpose, man hunt. A duke, whose name has been lost in the history, used to amuse himself by hunting slaves. He used special arrows which "froze" the target and then finished them off with a clean shot to the head.
@@ -2522,7 +2547,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 - Immunité au silence
 - Action libre
-- Non-détection permanente
+- Non-détection
 
 Enchantement : +2
 TAC0 : +2
@@ -2550,7 +2575,7 @@ Capacités d'équipement :
 - Classe d'armure : -3 contre les armes contondantes
 - Classe d'armure : +1 contre les armes tranchantes
 - Classe d'armure de base : 1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -2580,9 +2605,9 @@ Capacités d'équipement :
 - Classe d'armure : +1 contre les armes tranchantes
 - Classe d'armure de base : 0
 - Jets de sauvegarde : +1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à la magie : +10 %
-- Silence permanent
+- Silence
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -2603,8 +2628,8 @@ Weight:  3</pre></td><td class="description after"><pre>The Cloak of Disappearan
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente (sans bonus d'attaque par round)
-- Invisibilité permanente
+- Hâte (sans bonus d'attaque par round)
+- Invisibilité
 
 Poids : 3</pre></td></tr>
 <tr><th class="title">NEWCK02<br/>Holy Cloak</th><td class="description before"><pre>The Holy Cloak can be used only by those of pure heart. It improves the memory of the wearer and thus she can memorize more spells at a time than usual.
@@ -2669,6 +2694,38 @@ Poids : 10
 
 Nécessite : 
 - Force : 10</pre></td></tr>
+<tr><th class="title">NEWCL02<br/>Cervan's Morning Star +4</th><td class="description before"><pre>Cervan's morning star became known of it's ability to berserk the enemies. When hit by this weapon, one goes to blind rage attacking anyone in sight. A perfect tool for creating disorganisation between the enemies.
+
+STATISTICS:
+
+Combat Abilities: Berserks the target
+
+Damage: 2D4 + 4
+THAC0:  +4
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength</pre></td><td class="description after"><pre>Cervan's morning star became known of it's ability to berserk the enemies. When hit by this weapon, one goes to blind rage attacking anyone in sight. A perfect tool for creating disorganisation between the enemies.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Provoque la folie du berserker chez la cible pendant 4 rounds
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 2d4 +4
+Type de dégâts : Contondant
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes/morgenstern
+Type : Arme à 1 main
+
+Poids : 9
+
+Nécessite : 
+- Force : 11</pre></td></tr>
 <tr><th class="title">NEWCRYS<br/>The Crystal Sword +6</th><td class="description before"><pre>Stormbringer's Flame, Inferno of the North, The Blade That Was Broken: The Crystal Sword. Forged during the Time of Troubles, broken in the battlefields of Havannock, now forged back into one to deliver death for all foes.
 
 The creation process of the Crystal Sword is unknown. It is said that it is of divine origin but that has not been proved. Either way it was carried by one of the most powerful fighters of the Time of Troubles; Travis Stormbringer. It was broken in the battle of Havannock when Travis died. The pieces were lost until refound just recently and forged into one by smith Brundor.
@@ -2737,12 +2794,6 @@ Capacités d'équipement :
 Capacités de combat (Mêlée) : 
 - Inflige 2d4 points de dégâts de froid supplémentaires
 
-Enchantement : +4
-TAC0 : +4
-Dégâts : 1d4 +4
-Type de dégâts : Perforant
-Facteur de vitesse : 1
-
 Capacités de combat (Jeté) : 
 - Revient dans la main du lanceur
 - Inflige 2d4 points de dégâts de froid supplémentaires
@@ -2750,9 +2801,9 @@ Capacités de combat (Jeté) :
 Enchantement : +4
 TAC0 : +4
 Dégâts : 1d4 +4
-Type de dégâts : Projectile (perforant)
+Type de dégâts : Projectile (perforant) (Jeté)
+Type de dégâts : Perforant (Mêlée)
 Facteur de vitesse : 1
-
 Type de compétence : Dague
 Type : Arme à 1 main
 
@@ -2786,7 +2837,7 @@ Capacités d'équipement :
 - Immunité à la confusion
 - Immunité à l'horreur
 - Action libre
-- Non-détection permanente
+- Non-détection
 
 Enchantement : +2
 TAC0 : +2
@@ -2887,12 +2938,6 @@ Capacités de combat (Jeté) :
 - 26 % de chance de tuer instantanément les géants
 - 11 % de chance d'infliger 4d10 points de dégâts contondants supplémentaires
 
-Enchantement : +4
-TAC0 : +4
-Dégâts : 1d6 +4
-Type de dégâts : Projectile (perforant)
-Facteur de vitesse : 1
-
 Capacités de combat (Mêlée) : 
 - 26 % de chance de tuer instantanément les géants
 - 11 % de chance d'infliger 4d10 points de dégâts contondants supplémentaires
@@ -2900,9 +2945,9 @@ Capacités de combat (Mêlée) :
 Enchantement : +4
 TAC0 : +4
 Dégâts : 1d6 +4
-Type de dégâts : Tranchant
+Type de dégâts : Tranchant (Mêlée)
+Type de dégâts : Projectile (perforant) (Jeté)
 Facteur de vitesse : 1
-
 Type de compétence : Hache
 Type : Arme à 1 main
 
@@ -2965,8 +3010,8 @@ Requires: 6 Strength</pre></td><td class="description after"><pre>It was in the 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Immunité contre les armes de mêlée magiques +1
-- Immunité contre les armes de mêlée non-magiques
+- Immunité contre les armes enchantées +1
+- Immunité contre les armes non-magiques
 
 Capacités de combat : 
 - Tue instantanément les orcs
@@ -3013,7 +3058,7 @@ Capacités d'équipement :
 - TAC0 des armes à projectiles : -2
 - Dégâts des armes de mêlée : -5
 - Dégâts des armes à projectiles : -5
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation du camouflage dans l'ombre
 
 Poids : 35
@@ -3039,13 +3084,13 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -3
-- Provoque l'échec systématique des sorts profanes
-- Empêche l'utilisation du camouflage dans l'ombre
 - TAC0 : +2 contre les créatures bonnes
 - Inflige +2 points de dégâts supplémentaires contre les créatures chaotiques bonnes
 - Inflige +2 points de dégâts supplémentaires contre les créatures neutres bonnes
 - Inflige +2 points de dégâts supplémentaires contre les créatures loyales bonnes
 - Inflige +2 points de dégâts supplémentaires contre les créatures bonnes
+- Empêche le porteur de lancer des sorts profanes
+- Empêche l'utilisation du camouflage dans l'ombre
 
 Poids : 30
 
@@ -3068,7 +3113,7 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Régénère 1 point de vie toutes les 3 secondes
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -3095,7 +3140,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les projectiles
 - Classe d'armure de base : -3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Résistance à l'électricité : +100 %
 - Résistance à l'acide : +50 %
 
@@ -3123,7 +3168,7 @@ Capacités d'équipement :
 - Classe d'armure : +1
 - TAC0 : +1
 - Intelligence : Passe à 18
-- Hâte améliorée permanente
+- Hâte améliorée
 
 Poids : 2</pre></td></tr>
 <tr><th class="title">NEWHE02<br/>Bright Orange Ioun Stone</th><td class="description before"><pre>Legend tells us that this particular type of ioun stone is crafted with the enslaved soul of a fire giant.  This bright orange ioun stone will grant the wearer the strength of a giant.
@@ -3161,7 +3206,7 @@ Capacités d'équipement :
 - Immunité à la débilité mentale
 - Immunité à l'horreur
 - Immunité aux charmes
-- Immunité à l'état berserk
+- Immunité à la folie du berserker
 
 Poids : 1</pre></td></tr>
 <tr><th class="title">NEWHL01<br/>The Wind +5</th><td class="description before"><pre>Halberd +5, The Wind
@@ -3200,6 +3245,45 @@ Poids : 12
 
 Nécessite : 
 - Force : 13</pre></td></tr>
+<tr><th class="title">NEWHL02<br/>Mangloves' Halberd +3</th><td class="description before"><pre>Mangloves was a strategist when he lived. He believed that any foe can be beaten with the right strategy. Therefore he had this halberd made for him. It has many abilities to strike to the opponents' weaknesses making their annihilation easier.
+
+STATISTICS:
+
+Combat Abilities:
+ 25% chance to disease the target for 2 rounds
+ 25% chance to make the target feebleminded for 2 rounds
+ 25% chance to cause the target a panic for 2 rounds
+ 25% chance to hold the target for 2 rounds
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 12
+Speed Factor: 6
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength</pre></td><td class="description after"><pre>Mangloves was a strategist when he lived. He believed that any foe can be beaten with the right strategy. Therefore he had this halberd made for him. It has many abilities to strike to the opponents' weaknesses making their annihilation easier.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- 26 % de chance d'inoculer une maladie qui inflige 1 point de dégâts de poison par seconde à la cible pendant 2 rounds (jet de sauvegarde à -2 contre la paralysie, la mort et les poisons pour éviter)
+- 26 % de chance d'infliger Horreur à la cible pendant 2 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
+- 26 % de chance de paralyser la cible pendant 2 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
+- 26 % de chance d'infliger Débilité mentale à la cible pendant 2 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d10 +3
+Type de dégâts : Perforant
+Facteur de vitesse : 6
+Type de compétence : Hallebarde
+Type : Arme à 2 mains
+
+Poids : 12
+
+Nécessite : 
+- Force : 13</pre></td></tr>
 <tr><th class="title">NEWHM01<br/>The Violet Hammer +2</th><td class="description before"><pre>The Violet Hammer was originally made as a joke from Gol Mountainpeak to Jacob Chalim. It was unfortunately ironic that some time later the men went to war on different sides and Jacob killed Gol with this hammer.
 
 STATISTICS:
@@ -3219,7 +3303,7 @@ Requires: 9 Strength</pre></td><td class="description after"><pre>The Violet Ham
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Tous sorts lancés par la cible déclenchent automatiquement un hiatus entropique (jet de sauvegarde contre les sorts pour éviter)
+- Le prochain sort lancé par la cible déclenche un hiatus entropique (jet de sauvegarde contre les sorts pour éviter)
 
 Enchantement : +2
 TAC0 : +2
@@ -3291,7 +3375,7 @@ Type:  1-handed</pre></td><td class="description after"><pre>This war hammer was
 PARAMÈTRES : 
 
 Capacités de combat : 
-- Fait oublier 1 sort profane à la cible
+- Supprime 1 sort profane de la mémoire de la cible
 
 Enchantement : +6
 TAC0 : +6
@@ -3329,9 +3413,9 @@ Capacités de combat :
 - Inflige 1 points de dégâts de froid supplémentaires
 - Inflige 1 points de dégâts d'électricité supplémentaires
 - Inflige 1 points de dégâts de feu supplémentaires
-- 6 % de chance de lancer le sort Cône de froid (comme un lanceur de sorts de niveau 10)
-- 6 % de chance de lancer le sort Éclair (comme un lanceur de sorts de niveau 10)
-- 6 % de chance de lancer le sort Boule de feu (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Cône de froid sur la cible (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Éclair sur la cible (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Boule de feu sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +4
 TAC0 : +4
@@ -3345,6 +3429,77 @@ Poids : 2
 
 Nécessite : 
 - Force : 5</pre></td></tr>
+<tr><th class="title">NEWKAT01<br/>Katana of Unbalance +2</th><td class="description before"><pre>This blade has been forged to keep the world unbalanced. It can be wielded by those of either good or evil alignment. It is known to deal extra damage to neutral creatures.
+
+STATISTICS
+
+Damage: 1D10 + 2, +3 against Neutral creatures
+THAC0:  +2 bonus, +3 against Neutral creatures
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength</pre></td><td class="description after"><pre>This blade has been forged to keep the world unbalanced. It can be wielded by those of either good or evil alignment. It is known to deal extra damage to neutral creatures.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- TAC0 : +3 contre les créatures chaotiques neutres
+- TAC0 : +3 contre les créatures neutres strictes
+- TAC0 : +3 contre les créatures loyales neutres
+- TAC0 : +3 contre les créatures neutres
+- Inflige +3 points de dégâts supplémentaires contre les créatures chaotiques neutres
+- Inflige +3 points de dégâts supplémentaires contre les créatures neutres strictes
+- Inflige +3 points de dégâts supplémentaires contre les créatures loyales neutres
+- Inflige +3 points de dégâts supplémentaires contre les créatures neutres
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d10 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à 1 main
+
+Poids : 4
+
+Nécessite : 
+- Force : 6</pre></td></tr>
+<tr><th class="title">NEWKAT02<br/>Master's Katana +4</th><td class="description before"><pre>This katana was used by the weapon master of the fighter's guild in the city of Morgoth. It releases iron tough insects with every succesful hit and they slash through the enemy dealing damage. The target might also become feebleminded or blurred.
+
+STATISTICS:
+
+Combat Abilities:
+ Feeblemindness for 4 rounds (Save vs. Spells)
+
+Damage: 1D10 + 4, +5 Slashing Damage
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength</pre></td><td class="description after"><pre>This katana was used by the weapon master of the fighter's guild in the city of Morgoth. It releases iron tough insects with every succesful hit and they slash through the enemy dealing damage. The target might also become feebleminded or blurred.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Inflige 5 points de dégâts tranchants supplémentaires
+- Inflige Débilité mentale à la cible pendant 4 rounds (jet de sauvegarde contre les sorts pour éviter)
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d10 +4
+Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Katana
+Type : Arme à 1 main
+
+Poids : 3
+
+Nécessite : 
+- Force : 6</pre></td></tr>
 <tr><th class="title">NEWLB01<br/>The Phantom +4</th><td class="description before"><pre>The Phantom is a feared bow everywhere it is known. It shoots phantom arrows which can slow the target and burn and freeze the wound. One should be careful though because it is said that the Phantom is cursed. If you use the bow too long, you will loose your mind...
 
 STATISTICS:
@@ -3367,7 +3522,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 
 Capacités de combat : 
-- Revient dans la main du lanceur
+- Ne nécessite pas de munitions
 - Inflige 2 points de dégâts de feu magique supplémentaires
 - Inflige 2 points de dégâts de froid magique supplémentaires
 - Inflige lenteur à la cible pendant 2 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
@@ -3399,7 +3554,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 
 Poids : 8
 
@@ -3422,10 +3577,10 @@ Capacités d'équipement :
 - Classe d'armure : -2 contre les projectiles
 - Classe d'armure : -2 contre les armes perforantes
 - Classe d'armure de base : 3
-- Provoque l'échec systématique des sorts profanes
-- Immunité contre les sorts de niveau 3
-- Immunité contre les sorts de niveau 2
-- Immunité contre les sorts de niveau 1
+- Empêche le porteur de lancer des sorts profanes
+- Immunité aux sorts de niveau 3
+- Immunité aux sorts de niveau 2
+- Immunité aux sorts de niveau 1
 
 Poids : 4
 
@@ -3448,7 +3603,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : +1 contre les armes perforantes
 - Classe d'armure de base : 2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Immunité au sort Emprisonnement
 
 Poids : 8
@@ -3474,6 +3629,7 @@ Requires: 10 Strength</pre></td><td class="description after"><pre>The Life Stea
 PARAMÈTRES : 
 
 Capacités de combat : 
+- Inflige -2 points de dégâts magiques au porteur
 - Inflige 2 points de dégâts magiques supplémentaires
 
 Enchantement : +3
@@ -3513,8 +3669,8 @@ Capacités d'équipement :
 - Résistance aux poisons : +50 %
 
 Capacités de combat : 
-- 51 % de chance d'empoisonner la cible et de lui infliger 1 points de dégâts par seconde pendant 3 rounds (jet de sauvegarde à -3 contre la paralysie, la mort et les poisons pour éviter)
-- 51 % de chance d'inoculer une maladie qui inflige 1 point de dégâts par seconde à la cible pendant 3 rounds (jet de sauvegarde à -3 contre la paralysie, la mort et les poisons pour éviter)
+- 51 % de chance d'empoisonner la cible et de lui infliger 1 point de dégâts par seconde pendant 3 rounds (jet de sauvegarde à -3 contre la paralysie, la mort et les poisons pour éviter)
+- 51 % de chance d'inoculer une maladie qui inflige 1 point de dégâts de poison par seconde à la cible pendant 3 rounds (jet de sauvegarde à -3 contre la paralysie, la mort et les poisons pour éviter)
 
 Enchantement : +1
 TAC0 : +1
@@ -3602,13 +3758,8 @@ Requires: 6 Strength</pre></td><td class="description after"><pre>This weapon wa
 
 PARAMÈTRES : 
 
-Capacités d'équipement : 
-- Flou permanent
-
 Capacités de charge : 
-- Capacité 2 (1 fois par jour)
-  Invoque une créature (Xander's Spirit) pendant 5 rounds
-  Xander's Spirit +2 après 5 rounds
+- Invoque une créature (Xander's Spirit) pendant 5 rounds (1 fois par jour)
 
 Enchantement : +2
 TAC0 : +3
@@ -3638,7 +3789,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -3668,7 +3819,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Points de vie maximum : +10
 - Immunité à la pétrification
 - Immunité aux attaques sournoises
@@ -3692,7 +3843,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Classe d'armure : +3 contre les armes tranchantes
 - Classe d'armure de base : 0
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -3710,7 +3861,7 @@ Equipping Abilities:
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Bénédiction permanente
+- Bénédiction
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">NEWRICH<br/>Ring of Chant</th><td class="description before"><pre>A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. This ring has the effect of 'Chant'.
@@ -3723,7 +3874,7 @@ Equipping Abilities:
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Chance : Passe à 1 (non cumulable)
+- Chance : +1 (non cumulable)
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">NEWRIME<br/>Ring of Mentality</th><td class="description before"><pre>Ring of Mentality is the opposite of the Ring of Vigor. It boosts up the abilities which are more important to people who prefer mental combats over physical ones. The ring is not powerful enough to give abilities so it takes them from elsewhere.
@@ -3815,7 +3966,7 @@ Weight:  4</pre></td><td class="description after"><pre>The legend has it that o
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Résistance aux poisons : Passe à 100 %
+- Résistance aux poisons : +100 %
 - Résistance à l'acide : Passe à 100 %
 - Immunité aux poisons
 
@@ -4253,6 +4404,42 @@ Poids : 3
 
 Nécessite : 
 - Force : 5</pre></td></tr>
+<tr><th class="title">NEWSPR03<br/>Spear of the Sea +5</th><td class="description before"><pre>This spear has been forged of material only found from the seas. The enchantments have made it hard as a stone and very effective in combat. It is known to protect it's wielder from a few spells. Some people say that one of those spells is 'Raise Dead', but that's only a legend.
+
+STATISTICS
+
+Equipping Abilities:
+  Protection from Slow, Stun and Dispel Magic
+
+Damage: 1D6 + 5
+THAC0:  +5 bonus
+Damage type:  piercing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength</pre></td><td class="description after"><pre>This spear has been forged of material only found from the seas. The enchantments have made it hard as a stone and very effective in combat. It is known to protect it's wielder from a few spells. Some people say that one of those spells is 'Raise Dead', but that's only a legend.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Immunité à la dissipation
+- Immunité à la résurrection
+- Immunité à la lenteur
+- Immunité à l'étourdissement
+
+Enchantement : +5
+TAC0 : +5
+Dégâts : 1d6 +5
+Type de dégâts : Perforant
+Facteur de vitesse : 1
+Type de compétence : Lance
+Type : Arme à 2 mains
+
+Poids : 3
+
+Nécessite : 
+- Force : 5</pre></td></tr>
 <tr><th class="title">NEWSS01<br/>Small Shield +3</th><td class="description before"><pre>A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield is heavily enchanted.
 
 STATISTICS:
@@ -4289,9 +4476,9 @@ Capacités d'équipement :
 - Classe d'armure : +5
 - Classe d'armure : -2 contre les projectiles
 - Résistance à la magie : +20 %
-- Renvoi les sorts de niveau 4
-- Renvoi les sorts de niveau 3
-- Renvoi les sorts de niveau 2
+- Renvoie les sorts de niveau 4
+- Renvoie les sorts de niveau 3
+- Renvoie les sorts de niveau 2
 
 Poids : 2
 
@@ -4312,7 +4499,7 @@ PARAMÈTRES :
 
 Capacités d'équipement : 
 - Classe d'armure : +5
-- Invisibilité améliorée permanente
+- Invisibilité améliorée
 
 Poids : 7
 
@@ -4338,7 +4525,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inflige 1 points de dégâts de feu supplémentaires
-- 6 % de chance de lancer le sort Boule de feu (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Boule de feu sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +3
 TAC0 : +3
@@ -4372,7 +4559,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inflige 1 points de dégâts de froid supplémentaires
-- 6 % de chance de lancer le sort Cône de froid (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Cône de froid sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +3
 TAC0 : +3
@@ -4406,7 +4593,7 @@ PARAMÈTRES :
 
 Capacités de combat : 
 - Inflige 1 points de dégâts d'électricité supplémentaires
-- 6 % de chance de lancer le sort Éclair (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Éclair sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +3
 TAC0 : +3
@@ -4483,12 +4670,11 @@ Capacités de charge :
 - Brèche (2 fois par jour)
 -  (1 fois par jour)
 -  (1 fois par jour)
--  (1 fois par jour)
 
 Capacités de combat : 
-- Dissipation de la magie
-- Guérison de la Débilité mentale
 - Tue instantanément les illusions (jet de sauvegarde à -4 contre la paralysie, la mort et les poisons pour éviter)
+- Dissipation de la magie sur la cible
+- Guérit la Débilité mentale de la cible
 
 Enchantement : +3
 TAC0 : +3
@@ -4521,7 +4707,7 @@ Requires: 5 Strength</pre></td><td class="description after"><pre>The simplest a
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente
+- Hâte
 
 Enchantement : +1
 TAC0 : +1
@@ -4558,7 +4744,7 @@ PARAMÈTRES :
 Capacités d'équipement : 
 - Attaque par round : +1
 - Dextérité : Passe à 18
-- Hâte permanente
+- Hâte
 
 Enchantement : +1
 TAC0 : +3
@@ -4642,6 +4828,58 @@ Poids : 8
 
 Nécessite : 
 - Force : 11</pre></td></tr>
+<tr><th class="title">NEWSWL01<br/>Delvin's Sword +4</th><td class="description before"><pre>Delvin was a fine smith and believed in the balance of powers. This is his best work and not for naught is he proud of it. The downside for an adventurer is that as Delvin was True Neutral, the sword might not only damage the target. There is also a possbility that it gives the target a helpful ability.
+
+STATISTICS:
+
+Combat Abilities:
+ 10% chance to
+   Make invisible
+   Stun
+   Give 100% Magic Resistance
+   Hold
+   Bless
+   Lower Saving Throws (-2)
+   Aid
+   Deal 25 points of magical damage
+   Heal 25 HP
+   Maze
+The duration of those effects which can have a duration is 3 rounds.
+
+Damage: 1D8 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength</pre></td><td class="description after"><pre>Delvin was a fine smith and believed in the balance of powers. This is his best work and not for naught is he proud of it. The downside for an adventurer is that as Delvin was True Neutral, the sword might not only damage the target. There is also a possbility that it gives the target a helpful ability.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- 11 % de chance d'infliger 25 points de dégâts magiques supplémentaires
+- 11 % de chance de passer la résistance à la magie de la cible à 100 % pendant 3 rounds
+- 11 % de chance de soigner +25 points de vie à la cible de manière permanente
+- 11 % de chance de lancer Bénédiction sur la cible pendant 3 rounds
+- 11 % de chance de lancer Aide (+1) sur la cible pendant 3 rounds
+- 11 % de chance de lancer Invisibilité sur la cible pendant 3 rounds
+- 11 % de chance d'étourdir la cible pendant 3 rounds
+- 11 % de chance de paralyser la cible pendant 3 rounds
+- 11 % de chance d'enfermer la cible dans un labyrinthe pendant 3 rounds
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d8 +4
+Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Épée longue
+Type : Arme à 1 main
+
+Poids : 4
+
+Nécessite : 
+- Force : 6</pre></td></tr>
 <tr><th class="title">NEWSWL02<br/>Vampiric Blade +5</th><td class="description before"><pre>The blood of a vampire runs in this sword and there is a chance with each succesful hit that the sword drains levels from the target as vampires do. Nothing is able to resist this sword so even the most powerful creatures of the realms can be bent under it's power.
 
 STATISTICS:
@@ -4709,6 +4947,39 @@ Poids : 2
 
 Nécessite : 
 - Force : 6</pre></td></tr>
+<tr><th class="title">NEWSWS01<br/>Calishman +2</th><td class="description before"><pre>Also known as the Sword of Anger. Looking from outside the sword looks quite beatiful but when it hits you, you tend to go mad. The name of the forger of this sword is unknown but first records of it can be traced to the city of Calimport.
+
+STATISTICS:
+
+Combat Abilities: 
+  Target goes into berserk if Saving Throw fails
+
+Damage: 1D6 + 2
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength</pre></td><td class="description after"><pre>Also known as the Sword of Anger. Looking from outside the sword looks quite beatiful but when it hits you, you tend to go mad. The name of the forger of this sword is unknown but first records of it can be traced to the city of Calimport.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Provoque la folie du berserker chez la cible pendant 3 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6 +2
+Type de dégâts : Perforant
+Facteur de vitesse : 1
+Type de compétence : Épée courte
+Type : Arme à 1 main
+
+Poids : 2
+
+Nécessite : 
+- Force : 5</pre></td></tr>
 <tr><th class="title">NEWSWS02<br/>Sword of Certainty +4</th><td class="description before"><pre>This sword just knows how to hit the target. It is amazing but even those with no experience in fighting can get a hit through a fairly good fighter's defence. The sword has also gained reputation amongst assassins as in skilled hands it can deliver death quickly and smoothly.
 
 STATISTICS:
@@ -4793,7 +5064,7 @@ Requires: 14 Strength</pre></td><td class="description after"><pre>This is the w
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Immunité contre les attaques des démons convoqués
+- Immunité contre les démons convoqués
 
 Capacités de charge : 
 - Convocation de monstres III (1 fois par jour)
@@ -4989,7 +5260,7 @@ Capacités d'équipement :
 - Classe d'armure : +2 contre les armes perforantes
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure de base : -2
-- Provoque l'échec systématique des sorts profanes
+- Empêche le porteur de lancer des sorts profanes
 - Empêche l'utilisation du camouflage dans l'ombre
 
 Poids : 35
@@ -5037,6 +5308,9 @@ Special Abilities:
  Reflects all spell damage back to the source. This includes offensive spells like magic missile, but not disabling (non-damage) spells such as hold person.</pre></td><td class="description after"><pre>This type of rings were designed and created for Wizards Slayers. The Reflect Ring reflects back all spells cast on the wearer making it very useful against wizards.
 
 PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Renvoie les sorts de dégâts offensif
 
 Poids : 0</pre></td></tr>
 <tr><th class="title">REGISAM<br/>Regis' Amulet</th><td class="description before"><pre>This amulet is known to charm all humanoids. It is in the hands of the halfling Regis and can only be worn by halflings.
@@ -5159,8 +5433,8 @@ Capacités d'équipement :
 - Classe d'armure : +3 contre les armes perforantes
 - Classe d'armure : +4 contre les armes tranchantes
 - Classe d'armure de base : -1
-- Provoque l'échec systématique des sorts profanes
-- Immunité contre les armes de mêlée non-magiques
+- Empêche le porteur de lancer des sorts profanes
+- Immunité contre les armes non-magiques
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -5279,7 +5553,7 @@ Requires: 5 Strength</pre></td><td class="description after"><pre>This is the pe
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Hâte permanente
+- Hâte
 
 Enchantement : +4
 TAC0 : +4
@@ -5316,7 +5590,7 @@ Capacités d'équipement :
 
 Capacités de combat : 
 - Inflige 5 points de dégâts d'électricité supplémentaires
-- 21 % de chance de lancer le sort Chaîne d'éclairs (comme un lanceur de sorts de niveau 1)
+- 21 % de chance de lancer instantanément le sort Chaîne d'éclairs sur la cible (comme un lanceur de sorts de niveau 1)
 
 Enchantement : +3
 TAC0 : +3
@@ -5435,7 +5709,7 @@ Capacités d'équipement :
 - Action libre
 
 Capacités de combat : 
-- 6 % de chance de lancer le sort Ultima (comme un lanceur de sorts de niveau 10)
+- 6 % de chance de lancer instantanément le sort Ultima sur la cible (comme un lanceur de sorts de niveau 10)
 
 Enchantement : +4
 TAC0 : +4

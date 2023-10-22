@@ -1,0 +1,15 @@
+
+pxl2alch.itm : FAILURE: opcode 0: Failure("pxl2alch.itm : opcode_target_probability_0 pourcentage d'armure de la cible \195\160 g\195\169rer")
+pxl2alch.itm : FAILURE: opcode 146: Failure("Opcode 0: Failure(\"pxl2alch.itm : opcode_target_probability_0 pourcentage d'armure de la cible \\195\\160 g\\195\\169rer\")")
+pxl2alch.itm : FAILURE: opcode 272: Failure("Opcode 146: Failure(\"Opcode 0: Failure(\\\"pxl2alch.itm : opcode_target_probability_0 pourcentage d'armure de la cible \\\\195\\\\160 g\\\\195\\\\169rer\\\")\")")
+pxl2alch.itm : FAILURE: Failure("Opcode 272: Failure(\"Opcode 146: Failure(\\\"Opcode 0: Failure(\\\\\\\"pxl2alch.itm : opcode_target_probability_0 pourcentage d'armure de la cible \\\\\\\\195\\\\\\\\160 g\\\\\\\\195\\\\\\\\169rer\\\\\\\")\\\")\")")
+pxl2dcoe.itm : Opcode 12: Invalid target : 255
+pxl2dcon.itm : Opcode 83 : Réflection du type de projectile '278'
+pxl2dp14.itm : FAILURE: Unknown macro: opcode_self_probability_42
+pxl2dp14.itm : FAILURE: Unknown macro: opcode_self_probability_42
+pxl2dp14.itm : FAILURE: Unknown macro: opcode_self_probability_42
+pxl2dp14.itm : FAILURE: Unknown macro: opcode_self_probability_42
+pxl2dp14.itm : FAILURE: Unknown macro: opcode_self_probability_42
+pxl2can1.itm : FAILURE: Not_found
+pxl2can4.itm : FAILURE: Unknown macro: opcode_target_probability_111
+pxl2can4.itm : FAILURE: Not_found

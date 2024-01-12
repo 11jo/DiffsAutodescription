@@ -1,15 +1,45 @@
 
-NWADISEE.ITM : Opcode 221: secondary type (21) must be between 0 and 13 inclusive
-NWADISEE.ITM : Opcode 221: Wrong parameter2 : 21
-NWAMUL02.ITM : Opcode 166: Unknown type 3.
 NWANTIDE.ITM : Opcode 221: secondary type (21) must be between 0 and 13 inclusive
 NWANTIDE.ITM : Opcode 221: Wrong parameter2 : 21
-NWBELT01.ITM : Opcode 178 : No change detected : Value = Value + 0.
-NWCLCK2.ITM : Opcode 36: No change detected: Value = Value + 0.
-NWDSPO01.ITM : Opcode 179 : No change detected : Value = Value + 0.
-NWPHILTR.ITM : Opcode 233: Invalid Type 4 (89-134 expected)
-NWPHILTR.ITM : Opcode 221: secondary type (21) must be between 0 and 13 inclusive
-NWPHILTR.ITM : Opcode 221: Wrong parameter2 : 21
-NWPLATN1.ITM : Opcode 166: Unknown type 3.
-NWSTAF04.ITM : Opcode 0: parameter1 equal to 0 for a bonus/malus to the armor class.
-NWSW1H73.ITM : Opcode 0: parameter1 equal to 0 for a bonus/malus to the armor class.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN542 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN543 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN544 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN545 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN546 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN547 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN727 not found.
+NWCLCKAC.ITM : Fichier NWCLCKAC.ITM : Immunity against psionic spells: Opcode 206 with resref SPIN804 not found.
+NWDSPO01.ITM : Opcode 179: has no effect : levelMin (8) > levelMax (1) 
+NWGOLEM3.ITM : Opcode 206 : Resource cdsw1h58.spl doesn't exist.
+NWGOLEM3.ITM : Opcode 206 : Resource cdmound.spl doesn't exist.
+NWGOLEM3.ITM : Opcode 206 : Resource cdhgnya1.spl doesn't exist.
+NWGOLEM3.ITM : Opcode 206 : Resource cdmound.spl doesn't exist.
+NWGOLEM3.ITM : Opcode 206 : Resource cdhgnya1.spl doesn't exist.
+NWMINH1Y.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWMINH1Y.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWMINH1Z.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWMINH1Z.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWMORAG4.ITM : Opcode 206 : Resource cdsw1h58.spl doesn't exist.
+NWMORAG4.ITM : Opcode 206 : Resource cdmound.spl doesn't exist.
+NWMORAG4.ITM : Opcode 206 : Resource cdmound.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl661.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl657.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl653.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 518 : Resource sppsq5.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource rr#dpdis.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl661.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl657.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource spcl653.spl doesn't exist.
+NWPSC08M.ITM : Opcode 206 : Resource sppsq5.spl doesn't exist.
+NWSTAF04.ITM : Immunity to Stun: Opcode 206 with resref SPIN543 not found.

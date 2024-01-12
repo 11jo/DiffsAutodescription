@@ -1,0 +1,4 @@
+
+NWANTIDE.ITM : Opcode 221: secondary type (21) must be between 0 and 13 inclusive
+NWANTIDE.ITM : Opcode 221: Wrong parameter2 : 21
+NWDSPO01.ITM : Opcode 179: has no effect : levelMin (8) > levelMax (1) 
